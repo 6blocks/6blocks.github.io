@@ -14,8 +14,8 @@ let advanceTimer=null, celebrating=false;
 const celebrationMs=1500;
 function clearCelebration(){clearTimeout(advanceTimer);advanceTimer=null;celebrating=false;success.hidden=true;restartAll.hidden=true;}
 function showSuccess(){if(celebrating||pieces.length||drag)return;celebrating=true;const last=levelIndex===LEVELS.length-1;document.querySelector('#success-title').textContent=last?'Complimenti!':'Bravo!';document.querySelector('#success-detail').textContent=last?'Hai completato tutti i livelli!':`Livello ${level.id} completato in ${moves} mosse!`;success.hidden=false;render();if(last){restartAll.hidden=false;return;}advanceTimer=setTimeout(()=>{if(celebrating&&!game.hidden&&!pieces.length)loadLevel(levelIndex+1)},celebrationMs);}
-play.onclick=()=>{home.hidden=true;game.hidden=false;play.textContent='Continua';if(!pieces.length)showSuccess();};
-homeBtn.onclick=()=>{if(drag)return;clearCelebration();game.hidden=true;home.hidden=false;};
+play.onclick=()=>{home.hidden=true;game.hidden=false;play.querySelector('span').firstChild.textContent='Continua';window.setLivingHomeActive?.(false);if(!pieces.length)showSuccess();};
+homeBtn.onclick=()=>{if(drag)return;clearCelebration();game.hidden=true;home.hidden=false;window.setLivingHomeActive?.(true);};
 restartAll.onclick=()=>loadLevel(0);
 function render(){svg.innerHTML=markup({W,H,gates,pieces,drag,previousVisual});previousVisual=clone(pieces);movesEl.textContent=moves;remaining.textContent=pieces.length;undo.disabled=!history.length||!!drag||celebrating;const complete=!pieces.length&&!drag;svg.parentElement.classList.toggle('is-complete',complete);
 resetBtn.disabled=!!drag||celebrating;homeBtn.disabled=!!drag;resetBtn.textContent='↻ Ricomincia';}
@@ -31,5 +31,4 @@ svg.addEventListener('pointerup',e=>finish(e,false));svg.addEventListener('point
 function reset(){if(drag)return;clearCelebration();previousVisual=[];pieces=clone(initial);moves=0;history=[];msg.textContent='Trascina un blocco oltre il bordo della sua uscita.';render()}resetBtn.onclick=reset;undo.onclick=()=>{if(drag||celebrating||!history.length)return;pieces=history.pop();moves--;msg.textContent='Ultima mossa annullata.';render()};loadLevel(0);play.disabled=false;document.querySelector('#loading').hidden=true;
 
 }
-document.querySelector('#help').onclick=()=>{const p=document.querySelector('#instructions');p.hidden=!p.hidden;document.querySelector('#help').setAttribute('aria-expanded',String(!p.hidden));};
 boot().catch(e=>{document.querySelector('#loading').textContent='Errore: '+e.message+' — apri il gioco tramite GitHub Pages o server locale.';});
