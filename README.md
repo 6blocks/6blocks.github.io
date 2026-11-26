@@ -7,3 +7,6 @@ Test motore: node tests/verify.js. Collaudo iPhone/Android reale richiesto.
 
 ## v0.04.6
 Living Game Header statico provvisorio: immagine fornita, rifilata solo nei margini blu verticali e ottimizzata WebP. Header responsive; Home, motore e livelli invariati. Cache aggiornata. Video header definitivo non incluso.
+
+## v0.04.6.1
+Sfondo gameplay uniforme #011E64; Home, header, motore e livelli invariati. Cache aggiornata.

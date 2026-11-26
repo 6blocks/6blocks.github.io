@@ -1,13 +1,13 @@
-const CACHE="6blocks-v0.04.6";
+const CACHE="6blocks-v0.04.6.1";
 const FILES=[
   "./",
   "./index.html",
   "./manifest.json",
-  "./css/style.css?v=0.04.6",
-  "./css/home.css?v=0.04.6",
-  "./js/app.js?v=0.04.6",
-  "./js/home.js?v=0.04.6",
-  "./js/update.js?v=0.04.6",
+  "./css/style.css?v=0.04.6.1",
+  "./css/home.css?v=0.04.6.1",
+  "./js/app.js?v=0.04.6.1",
+  "./js/home.js?v=0.04.6.1",
+  "./js/update.js?v=0.04.6.1",
   "./js/renderer.js",
   "./js/levels.js",
   "./js/config.js",
