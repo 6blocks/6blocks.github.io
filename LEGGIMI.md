@@ -42,3 +42,6 @@ Nuovi 15 schemi ufficiali, progressione immediata 1–3, ripristino locale e sel
 
 ## v0.04.9
 Livelli 1–3 Incastri, 4–6 Intrecci; 5 schemi per livello. Sessione condivisa, progressione automatica, cache offline aggiornata. Chiudere tutte le schede della vecchia versione per attivare il nuovo service worker.
+
+## v0.04.9.1
+Correzione visibilità SVG Incastri/Intrecci al cambio livello e al ripristino; cache aggiornata.

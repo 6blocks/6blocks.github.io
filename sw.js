@@ -1,14 +1,14 @@
-const CACHE="6blocks-v0.04.9";
+const CACHE="6blocks-v0.04.9.1";
 const FILES=[
   "./",
   "./index.html",
   "./manifest.json",
-  "./css/style.css?v=0.04.9",
-  "./css/home.css?v=0.04.9",
-  "./js/app.js?v=0.04.9",
-  "./js/home.js?v=0.04.9",
-  "./js/update.js?v=0.04.9",
-  "./js/game-header.js?v=0.04.9",
+  "./css/style.css?v=0.04.9.1",
+  "./css/home.css?v=0.04.9.1",
+  "./js/app.js?v=0.04.9.1",
+  "./js/home.js?v=0.04.9.1",
+  "./js/update.js?v=0.04.9.1",
+  "./js/game-header.js?v=0.04.9.1",
   "./js/renderer.js",
   "./js/levels.js",
   "./js/config.js",
