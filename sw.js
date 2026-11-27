@@ -1,13 +1,14 @@
-const CACHE="6blocks-v0.04.6.1";
+const CACHE="6blocks-v0.04.7";
 const FILES=[
   "./",
   "./index.html",
   "./manifest.json",
-  "./css/style.css?v=0.04.6.1",
-  "./css/home.css?v=0.04.6.1",
-  "./js/app.js?v=0.04.6.1",
-  "./js/home.js?v=0.04.6.1",
-  "./js/update.js?v=0.04.6.1",
+  "./css/style.css?v=0.04.7",
+  "./css/home.css?v=0.04.7",
+  "./js/app.js?v=0.04.7",
+  "./js/home.js?v=0.04.7",
+  "./js/update.js?v=0.04.7",
+  "./js/game-header.js?v=0.04.7",
   "./js/renderer.js",
   "./js/levels.js",
   "./js/config.js",
@@ -21,6 +22,7 @@ const FILES=[
   "./assets/videos/home-loop.mp4",
   "./assets/videos/home-poster.jpg",
   "./assets/videos/game-header-poster.webp",
+  "./assets/videos/game-header-loop.mp4",
   "./assets/branding/logo.png",
   "./assets/branding/family-symbol.png",
   "./assets/backgrounds/background.webp",

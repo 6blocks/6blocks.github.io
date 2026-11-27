@@ -32,3 +32,6 @@ Copiare le sottocartelle di `assets/` nella cartella `assets/` esistente del rep
 
 ## Stato della consegna
 Il concept è approvato. Le risorse separate sono una prima ricostruzione operativa da verificare visivamente: il marchio deriva dal raster originale (non da un vettoriale), lettering e blocchi sono ricostruiti, i testimonial sono ritagliati dalle tavole originali e possono presentare piccoli residui di sfondo o bordi da rifinire. Sfondo e splash sono nuove composizioni. Nessun test nell'app reale è stato eseguito. Le specifiche sopra e la tavola approvata prevalgono su eventuali differenze dei mockup. Non pubblicare prima dell'approvazione dell'integrazione.
+
+## v0.04.7
+Copiare tutto nella root del repository, senza cancellare `.git`. Commit e Push origin. Chiudere tutte le schede e le finestre dell'app precedente per attivare la nuova cache; riaprire online prima del test offline. Impostazioni: Animazioni della Home e Animazioni durante il gioco sono indipendenti. Nessuna modifica alla modalità Intrecci (sospesa).

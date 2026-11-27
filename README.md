@@ -10,3 +10,6 @@ Living Game Header statico provvisorio: immagine fornita, rifilata solo nei marg
 
 ## v0.04.6.1
 Sfondo gameplay uniforme #011E64; Home, header, motore e livelli invariati. Cache aggiornata.
+
+## v0.04.7 — Living Game Header animato
+Video originale H.264 720×178, 24 fps, senza audio. Poster originale invariato; il video è sovrapposto senza alterare la geometria del layout. Preferenza indipendente `6blocks.game.motion` (attiva di default), con priorità a `prefers-reduced-motion`. Sospensione fuori dalla schermata di gioco e in background; nessun riavvio ai cambi livello. Cache v0.04.7 con video e modulo dedicato. Il motore, i livelli e la grafica Home sono conservati. Test su dispositivi reali necessari, in particolare loop e riproduzione offline iOS.
