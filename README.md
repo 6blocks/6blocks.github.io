@@ -17,3 +17,7 @@ Video originale H.264 720×178, 24 fps, senza audio. Poster originale invariato;
 ## v0.04.8 — Consolidamento multischema
 Archivio ufficiale v1.00: 15 schemi, cinque per livello (1–3). Archivio precedente in `levels/archive-v0.04.7.json` (non caricato). Estrazione casuale per livello senza ripetizioni, compreso il confine tra cicli. La sessione locale `6blocks.session.v1` conserva schema, posizioni, mosse, cronologia e schemi estratti. Ricomincia conserva lo schema. La Home mostra Continua quando esiste una partita; dopo il livello 3 torna alla Home con un dialogo di congratulazioni. Nessuna schermata intermedia tra 1, 2 e 3. Cache aggiornata; il primo caricamento online deve completarsi. La chiusura durante un trascinamento conserva l'ultimo stato confermato. Nessuna migrazione di partite precedenti (non persistenti). Intrecci non implementato.
 Test: `npm test` (soluzioni e gestione sessione). Collaudo browser, touch e offline su dispositivi reali ancora necessario. Difficoltà e ottimalità delle soluzioni non certificate.
+
+
+## v0.04.9
+Livelli 1–3 Incastri, 4–6 Intrecci; 5 schemi per livello. Sessione condivisa, progressione automatica, cache offline aggiornata. Chiudere tutte le schede della vecchia versione per attivare il nuovo service worker.

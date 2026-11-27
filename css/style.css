@@ -23,3 +23,5 @@ button{touch-action:manipulation;-webkit-tap-highlight-color:transparent}.next-s
 #game .living-game-header video{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:center;background:#011E64;pointer-events:none;visibility:hidden}
 #game .living-game-header.video-playing video{visibility:visible}
 @media(prefers-reduced-motion:reduce){#game .living-game-header video{visibility:hidden!important}}
+
+#remaining-label{background:none;border:0;padding:0;border-radius:0;font:inherit}#intrecci-svg .end{cursor:grab;outline:none}#intrecci-svg .end:focus-visible rect{stroke:white;stroke-width:3}#intrecci-svg .slot{cursor:pointer}

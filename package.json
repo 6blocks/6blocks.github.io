@@ -2,6 +2,6 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "test": "node tests/verify.js && node tests/session.js"
+    "test": "node tests/verify.js && node tests/session.js && node tests/intrecci.js"
   }
 }

@@ -1,0 +1,5587 @@
+{
+  "status": "provisional_layer_model_pending_engine_validation",
+  "crossing_model": "cyclic_endpoint_alternation_with_fixed_layer_order",
+  "levels": [
+    {
+      "level": 4,
+      "schema_id": "INT-L04-001",
+      "mode": "intrecci",
+      "columns": 8,
+      "rows": 10,
+      "anchors": [
+        {
+          "id": 1,
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": 2,
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": 3,
+          "x": 3,
+          "y": 1
+        },
+        {
+          "id": 4,
+          "x": 5,
+          "y": 1
+        },
+        {
+          "id": 5,
+          "x": 6,
+          "y": 1
+        },
+        {
+          "id": 6,
+          "x": 7,
+          "y": 1
+        },
+        {
+          "id": 7,
+          "x": 8,
+          "y": 2
+        },
+        {
+          "id": 8,
+          "x": 8,
+          "y": 3
+        },
+        {
+          "id": 9,
+          "x": 8,
+          "y": 4
+        },
+        {
+          "id": 10,
+          "x": 8,
+          "y": 6
+        },
+        {
+          "id": 11,
+          "x": 8,
+          "y": 7
+        },
+        {
+          "id": 12,
+          "x": 8,
+          "y": 8
+        },
+        {
+          "id": 13,
+          "x": 8,
+          "y": 10
+        },
+        {
+          "id": 14,
+          "x": 7,
+          "y": 10
+        },
+        {
+          "id": 15,
+          "x": 6,
+          "y": 10
+        },
+        {
+          "id": 16,
+          "x": 4,
+          "y": 10
+        },
+        {
+          "id": 17,
+          "x": 3,
+          "y": 10
+        },
+        {
+          "id": 18,
+          "x": 2,
+          "y": 10
+        },
+        {
+          "id": 19,
+          "x": 1,
+          "y": 9
+        },
+        {
+          "id": 20,
+          "x": 1,
+          "y": 8
+        },
+        {
+          "id": 21,
+          "x": 1,
+          "y": 7
+        },
+        {
+          "id": 22,
+          "x": 1,
+          "y": 5
+        },
+        {
+          "id": 23,
+          "x": 1,
+          "y": 4
+        },
+        {
+          "id": 24,
+          "x": 1,
+          "y": 3
+        }
+      ],
+      "ropes": [
+        {
+          "id": 1,
+          "endpoints": [
+            7,
+            23
+          ],
+          "color": "giallo",
+          "color_hex": "#FFD326"
+        },
+        {
+          "id": 2,
+          "endpoints": [
+            11,
+            20
+          ],
+          "color": "rosa",
+          "color_hex": "#F43C9B"
+        },
+        {
+          "id": 3,
+          "endpoints": [
+            13,
+            24
+          ],
+          "color": "celeste",
+          "color_hex": "#23C8F4"
+        },
+        {
+          "id": 4,
+          "endpoints": [
+            2,
+            19
+          ],
+          "color": "viola",
+          "color_hex": "#A15AF4"
+        },
+        {
+          "id": 5,
+          "endpoints": [
+            10,
+            21
+          ],
+          "color": "verde_lime",
+          "color_hex": "#79D51C"
+        },
+        {
+          "id": 6,
+          "endpoints": [
+            1,
+            16
+          ],
+          "color": "arancione",
+          "color_hex": "#FF941A"
+        },
+        {
+          "id": 7,
+          "endpoints": [
+            8,
+            18
+          ],
+          "color": "rosso",
+          "color_hex": "#F3484D"
+        },
+        {
+          "id": 8,
+          "endpoints": [
+            15,
+            22
+          ],
+          "color": "blu",
+          "color_hex": "#3265DC"
+        },
+        {
+          "id": 9,
+          "endpoints": [
+            4,
+            12
+          ],
+          "color": "turchese",
+          "color_hex": "#13B89A"
+        },
+        {
+          "id": 10,
+          "endpoints": [
+            5,
+            14
+          ],
+          "color": "bianco_perla",
+          "color_hex": "#F3F4EF"
+        }
+      ],
+      "solution": [
+        {
+          "rope_id": 1,
+          "from": 23,
+          "to": 6,
+          "removed_rope_ids": [
+            1
+          ],
+          "remaining_ropes": 9
+        },
+        {
+          "rope_id": 3,
+          "from": 13,
+          "to": 23,
+          "removed_rope_ids": [
+            3
+          ],
+          "remaining_ropes": 8
+        },
+        {
+          "rope_id": 9,
+          "from": 12,
+          "to": 3,
+          "removed_rope_ids": [
+            9
+          ],
+          "remaining_ropes": 7
+        },
+        {
+          "rope_id": 7,
+          "from": 18,
+          "to": 7,
+          "removed_rope_ids": [
+            7
+          ],
+          "remaining_ropes": 6
+        },
+        {
+          "rope_id": 4,
+          "from": 2,
+          "to": 18,
+          "removed_rope_ids": [
+            4
+          ],
+          "remaining_ropes": 5
+        },
+        {
+          "rope_id": 6,
+          "from": 16,
+          "to": 3,
+          "removed_rope_ids": [
+            6
+          ],
+          "remaining_ropes": 4
+        },
+        {
+          "rope_id": 2,
+          "from": 20,
+          "to": 12,
+          "removed_rope_ids": [
+            2
+          ],
+          "remaining_ropes": 3
+        },
+        {
+          "rope_id": 5,
+          "from": 10,
+          "to": 19,
+          "removed_rope_ids": [
+            5,
+            8,
+            10
+          ],
+          "remaining_ropes": 0
+        }
+      ],
+      "verification": {
+        "initial_crossing_pairs": 31,
+        "initial_crossed_ropes": 10,
+        "solution_moves": 8,
+        "solvable_in_cyclic_model": true,
+        "optimality_certified": false,
+        "solvable_in_proposed_layer_model": true,
+        "solution_uses_only_unobstructed_ropes": true,
+        "remaining_ropes": 0,
+        "engine_certified": false
+      },
+      "initial_free_anchors": [
+        3,
+        6,
+        9,
+        17
+      ],
+      "difficulty_estimate": "media",
+      "layer_order": [
+        10,
+        8,
+        5,
+        2,
+        6,
+        4,
+        7,
+        9,
+        3,
+        1
+      ]
+    },
+    {
+      "level": 4,
+      "schema_id": "INT-L04-002",
+      "mode": "intrecci",
+      "columns": 8,
+      "rows": 10,
+      "anchors": [
+        {
+          "id": 1,
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": 2,
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": 3,
+          "x": 3,
+          "y": 1
+        },
+        {
+          "id": 4,
+          "x": 5,
+          "y": 1
+        },
+        {
+          "id": 5,
+          "x": 6,
+          "y": 1
+        },
+        {
+          "id": 6,
+          "x": 7,
+          "y": 1
+        },
+        {
+          "id": 7,
+          "x": 8,
+          "y": 2
+        },
+        {
+          "id": 8,
+          "x": 8,
+          "y": 3
+        },
+        {
+          "id": 9,
+          "x": 8,
+          "y": 4
+        },
+        {
+          "id": 10,
+          "x": 8,
+          "y": 6
+        },
+        {
+          "id": 11,
+          "x": 8,
+          "y": 7
+        },
+        {
+          "id": 12,
+          "x": 8,
+          "y": 8
+        },
+        {
+          "id": 13,
+          "x": 8,
+          "y": 10
+        },
+        {
+          "id": 14,
+          "x": 7,
+          "y": 10
+        },
+        {
+          "id": 15,
+          "x": 6,
+          "y": 10
+        },
+        {
+          "id": 16,
+          "x": 4,
+          "y": 10
+        },
+        {
+          "id": 17,
+          "x": 3,
+          "y": 10
+        },
+        {
+          "id": 18,
+          "x": 2,
+          "y": 10
+        },
+        {
+          "id": 19,
+          "x": 1,
+          "y": 9
+        },
+        {
+          "id": 20,
+          "x": 1,
+          "y": 8
+        },
+        {
+          "id": 21,
+          "x": 1,
+          "y": 7
+        },
+        {
+          "id": 22,
+          "x": 1,
+          "y": 5
+        },
+        {
+          "id": 23,
+          "x": 1,
+          "y": 4
+        },
+        {
+          "id": 24,
+          "x": 1,
+          "y": 3
+        }
+      ],
+      "ropes": [
+        {
+          "id": 1,
+          "endpoints": [
+            9,
+            4
+          ],
+          "color": "giallo",
+          "color_hex": "#FFD326"
+        },
+        {
+          "id": 2,
+          "endpoints": [
+            14,
+            20
+          ],
+          "color": "rosa",
+          "color_hex": "#F43C9B"
+        },
+        {
+          "id": 3,
+          "endpoints": [
+            1,
+            16
+          ],
+          "color": "celeste",
+          "color_hex": "#23C8F4"
+        },
+        {
+          "id": 4,
+          "endpoints": [
+            7,
+            2
+          ],
+          "color": "viola",
+          "color_hex": "#A15AF4"
+        },
+        {
+          "id": 5,
+          "endpoints": [
+            18,
+            13
+          ],
+          "color": "verde_lime",
+          "color_hex": "#79D51C"
+        },
+        {
+          "id": 6,
+          "endpoints": [
+            6,
+            21
+          ],
+          "color": "arancione",
+          "color_hex": "#FF941A"
+        },
+        {
+          "id": 7,
+          "endpoints": [
+            10,
+            17
+          ],
+          "color": "rosso",
+          "color_hex": "#F3484D"
+        },
+        {
+          "id": 8,
+          "endpoints": [
+            23,
+            15
+          ],
+          "color": "blu",
+          "color_hex": "#3265DC"
+        },
+        {
+          "id": 9,
+          "endpoints": [
+            22,
+            24
+          ],
+          "color": "turchese",
+          "color_hex": "#13B89A"
+        },
+        {
+          "id": 10,
+          "endpoints": [
+            5,
+            11
+          ],
+          "color": "bianco_perla",
+          "color_hex": "#F3F4EF"
+        }
+      ],
+      "solution": [
+        {
+          "rope_id": 10,
+          "from": 5,
+          "to": 12,
+          "removed_rope_ids": [
+            10
+          ],
+          "remaining_ropes": 9
+        },
+        {
+          "rope_id": 5,
+          "from": 13,
+          "to": 19,
+          "removed_rope_ids": [
+            5
+          ],
+          "remaining_ropes": 8
+        },
+        {
+          "rope_id": 6,
+          "from": 21,
+          "to": 5,
+          "removed_rope_ids": [
+            6
+          ],
+          "remaining_ropes": 7
+        },
+        {
+          "rope_id": 1,
+          "from": 9,
+          "to": 3,
+          "removed_rope_ids": [
+            1,
+            4
+          ],
+          "remaining_ropes": 5
+        },
+        {
+          "rope_id": 7,
+          "from": 17,
+          "to": 8,
+          "removed_rope_ids": [
+            7
+          ],
+          "remaining_ropes": 4
+        },
+        {
+          "rope_id": 3,
+          "from": 16,
+          "to": 9,
+          "removed_rope_ids": [
+            3
+          ],
+          "remaining_ropes": 3
+        },
+        {
+          "rope_id": 8,
+          "from": 23,
+          "to": 19,
+          "removed_rope_ids": [
+            2,
+            8,
+            9
+          ],
+          "remaining_ropes": 0
+        }
+      ],
+      "verification": {
+        "initial_crossing_pairs": 20,
+        "initial_crossed_ropes": 10,
+        "solution_moves": 7,
+        "solvable_in_cyclic_model": true,
+        "optimality_certified": false,
+        "solvable_in_proposed_layer_model": true,
+        "solution_uses_only_unobstructed_ropes": true,
+        "remaining_ropes": 0,
+        "engine_certified": false
+      },
+      "initial_free_anchors": [
+        3,
+        8,
+        12,
+        19
+      ],
+      "difficulty_estimate": "media",
+      "layer_order": [
+        9,
+        2,
+        8,
+        3,
+        7,
+        4,
+        1,
+        6,
+        5,
+        10
+      ]
+    },
+    {
+      "level": 4,
+      "schema_id": "INT-L04-003",
+      "mode": "intrecci",
+      "columns": 8,
+      "rows": 10,
+      "anchors": [
+        {
+          "id": 1,
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": 2,
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": 3,
+          "x": 3,
+          "y": 1
+        },
+        {
+          "id": 4,
+          "x": 5,
+          "y": 1
+        },
+        {
+          "id": 5,
+          "x": 6,
+          "y": 1
+        },
+        {
+          "id": 6,
+          "x": 7,
+          "y": 1
+        },
+        {
+          "id": 7,
+          "x": 8,
+          "y": 2
+        },
+        {
+          "id": 8,
+          "x": 8,
+          "y": 3
+        },
+        {
+          "id": 9,
+          "x": 8,
+          "y": 4
+        },
+        {
+          "id": 10,
+          "x": 8,
+          "y": 6
+        },
+        {
+          "id": 11,
+          "x": 8,
+          "y": 7
+        },
+        {
+          "id": 12,
+          "x": 8,
+          "y": 8
+        },
+        {
+          "id": 13,
+          "x": 8,
+          "y": 10
+        },
+        {
+          "id": 14,
+          "x": 7,
+          "y": 10
+        },
+        {
+          "id": 15,
+          "x": 6,
+          "y": 10
+        },
+        {
+          "id": 16,
+          "x": 4,
+          "y": 10
+        },
+        {
+          "id": 17,
+          "x": 3,
+          "y": 10
+        },
+        {
+          "id": 18,
+          "x": 2,
+          "y": 10
+        },
+        {
+          "id": 19,
+          "x": 1,
+          "y": 9
+        },
+        {
+          "id": 20,
+          "x": 1,
+          "y": 8
+        },
+        {
+          "id": 21,
+          "x": 1,
+          "y": 7
+        },
+        {
+          "id": 22,
+          "x": 1,
+          "y": 5
+        },
+        {
+          "id": 23,
+          "x": 1,
+          "y": 4
+        },
+        {
+          "id": 24,
+          "x": 1,
+          "y": 3
+        }
+      ],
+      "ropes": [
+        {
+          "id": 1,
+          "endpoints": [
+            9,
+            16
+          ],
+          "color": "giallo",
+          "color_hex": "#FFD326"
+        },
+        {
+          "id": 2,
+          "endpoints": [
+            20,
+            3
+          ],
+          "color": "rosa",
+          "color_hex": "#F43C9B"
+        },
+        {
+          "id": 3,
+          "endpoints": [
+            10,
+            19
+          ],
+          "color": "celeste",
+          "color_hex": "#23C8F4"
+        },
+        {
+          "id": 4,
+          "endpoints": [
+            14,
+            2
+          ],
+          "color": "viola",
+          "color_hex": "#A15AF4"
+        },
+        {
+          "id": 5,
+          "endpoints": [
+            6,
+            22
+          ],
+          "color": "verde_lime",
+          "color_hex": "#79D51C"
+        },
+        {
+          "id": 6,
+          "endpoints": [
+            23,
+            15
+          ],
+          "color": "arancione",
+          "color_hex": "#FF941A"
+        },
+        {
+          "id": 7,
+          "endpoints": [
+            5,
+            13
+          ],
+          "color": "rosso",
+          "color_hex": "#F3484D"
+        },
+        {
+          "id": 8,
+          "endpoints": [
+            18,
+            21
+          ],
+          "color": "blu",
+          "color_hex": "#3265DC"
+        },
+        {
+          "id": 9,
+          "endpoints": [
+            12,
+            24
+          ],
+          "color": "turchese",
+          "color_hex": "#13B89A"
+        },
+        {
+          "id": 10,
+          "endpoints": [
+            11,
+            17
+          ],
+          "color": "bianco_perla",
+          "color_hex": "#F3F4EF"
+        }
+      ],
+      "solution": [
+        {
+          "rope_id": 9,
+          "from": 12,
+          "to": 1,
+          "removed_rope_ids": [
+            9
+          ],
+          "remaining_ropes": 9
+        },
+        {
+          "rope_id": 4,
+          "from": 14,
+          "to": 24,
+          "removed_rope_ids": [
+            4
+          ],
+          "remaining_ropes": 8
+        },
+        {
+          "rope_id": 6,
+          "from": 23,
+          "to": 14,
+          "removed_rope_ids": [
+            6
+          ],
+          "remaining_ropes": 7
+        },
+        {
+          "rope_id": 7,
+          "from": 5,
+          "to": 14,
+          "removed_rope_ids": [
+            7
+          ],
+          "remaining_ropes": 6
+        },
+        {
+          "rope_id": 2,
+          "from": 20,
+          "to": 2,
+          "removed_rope_ids": [
+            2,
+            5
+          ],
+          "remaining_ropes": 4
+        },
+        {
+          "rope_id": 1,
+          "from": 16,
+          "to": 4,
+          "removed_rope_ids": [
+            1,
+            10
+          ],
+          "remaining_ropes": 2
+        },
+        {
+          "rope_id": 8,
+          "from": 18,
+          "to": 4,
+          "removed_rope_ids": [
+            3,
+            8
+          ],
+          "remaining_ropes": 0
+        }
+      ],
+      "verification": {
+        "initial_crossing_pairs": 26,
+        "initial_crossed_ropes": 10,
+        "solution_moves": 7,
+        "solvable_in_cyclic_model": true,
+        "optimality_certified": false,
+        "solvable_in_proposed_layer_model": true,
+        "solution_uses_only_unobstructed_ropes": true,
+        "remaining_ropes": 0,
+        "engine_certified": false
+      },
+      "initial_free_anchors": [
+        1,
+        4,
+        7,
+        8
+      ],
+      "difficulty_estimate": "media",
+      "layer_order": [
+        3,
+        8,
+        10,
+        1,
+        5,
+        2,
+        7,
+        6,
+        4,
+        9
+      ]
+    },
+    {
+      "level": 4,
+      "schema_id": "INT-L04-004",
+      "mode": "intrecci",
+      "columns": 8,
+      "rows": 10,
+      "anchors": [
+        {
+          "id": 1,
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": 2,
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": 3,
+          "x": 3,
+          "y": 1
+        },
+        {
+          "id": 4,
+          "x": 5,
+          "y": 1
+        },
+        {
+          "id": 5,
+          "x": 6,
+          "y": 1
+        },
+        {
+          "id": 6,
+          "x": 7,
+          "y": 1
+        },
+        {
+          "id": 7,
+          "x": 8,
+          "y": 2
+        },
+        {
+          "id": 8,
+          "x": 8,
+          "y": 3
+        },
+        {
+          "id": 9,
+          "x": 8,
+          "y": 4
+        },
+        {
+          "id": 10,
+          "x": 8,
+          "y": 6
+        },
+        {
+          "id": 11,
+          "x": 8,
+          "y": 7
+        },
+        {
+          "id": 12,
+          "x": 8,
+          "y": 8
+        },
+        {
+          "id": 13,
+          "x": 8,
+          "y": 10
+        },
+        {
+          "id": 14,
+          "x": 7,
+          "y": 10
+        },
+        {
+          "id": 15,
+          "x": 6,
+          "y": 10
+        },
+        {
+          "id": 16,
+          "x": 4,
+          "y": 10
+        },
+        {
+          "id": 17,
+          "x": 3,
+          "y": 10
+        },
+        {
+          "id": 18,
+          "x": 2,
+          "y": 10
+        },
+        {
+          "id": 19,
+          "x": 1,
+          "y": 9
+        },
+        {
+          "id": 20,
+          "x": 1,
+          "y": 8
+        },
+        {
+          "id": 21,
+          "x": 1,
+          "y": 7
+        },
+        {
+          "id": 22,
+          "x": 1,
+          "y": 5
+        },
+        {
+          "id": 23,
+          "x": 1,
+          "y": 4
+        },
+        {
+          "id": 24,
+          "x": 1,
+          "y": 3
+        }
+      ],
+      "ropes": [
+        {
+          "id": 1,
+          "endpoints": [
+            17,
+            14
+          ],
+          "color": "giallo",
+          "color_hex": "#FFD326"
+        },
+        {
+          "id": 2,
+          "endpoints": [
+            1,
+            10
+          ],
+          "color": "rosa",
+          "color_hex": "#F43C9B"
+        },
+        {
+          "id": 3,
+          "endpoints": [
+            6,
+            2
+          ],
+          "color": "celeste",
+          "color_hex": "#23C8F4"
+        },
+        {
+          "id": 4,
+          "endpoints": [
+            8,
+            21
+          ],
+          "color": "viola",
+          "color_hex": "#A15AF4"
+        },
+        {
+          "id": 5,
+          "endpoints": [
+            11,
+            19
+          ],
+          "color": "verde_lime",
+          "color_hex": "#79D51C"
+        },
+        {
+          "id": 6,
+          "endpoints": [
+            12,
+            23
+          ],
+          "color": "arancione",
+          "color_hex": "#FF941A"
+        },
+        {
+          "id": 7,
+          "endpoints": [
+            22,
+            3
+          ],
+          "color": "rosso",
+          "color_hex": "#F3484D"
+        },
+        {
+          "id": 8,
+          "endpoints": [
+            16,
+            4
+          ],
+          "color": "blu",
+          "color_hex": "#3265DC"
+        },
+        {
+          "id": 9,
+          "endpoints": [
+            15,
+            24
+          ],
+          "color": "turchese",
+          "color_hex": "#13B89A"
+        },
+        {
+          "id": 10,
+          "endpoints": [
+            13,
+            18
+          ],
+          "color": "bianco_perla",
+          "color_hex": "#F3F4EF"
+        }
+      ],
+      "solution": [
+        {
+          "rope_id": 8,
+          "from": 16,
+          "to": 5,
+          "removed_rope_ids": [
+            8
+          ],
+          "remaining_ropes": 9
+        },
+        {
+          "rope_id": 9,
+          "from": 24,
+          "to": 16,
+          "removed_rope_ids": [
+            1,
+            9,
+            10
+          ],
+          "remaining_ropes": 6
+        },
+        {
+          "rope_id": 6,
+          "from": 23,
+          "to": 14,
+          "removed_rope_ids": [
+            5,
+            6
+          ],
+          "remaining_ropes": 4
+        },
+        {
+          "rope_id": 2,
+          "from": 1,
+          "to": 16,
+          "removed_rope_ids": [
+            2,
+            4
+          ],
+          "remaining_ropes": 2
+        },
+        {
+          "rope_id": 3,
+          "from": 2,
+          "to": 20,
+          "removed_rope_ids": [
+            3,
+            7
+          ],
+          "remaining_ropes": 0
+        }
+      ],
+      "verification": {
+        "initial_crossing_pairs": 20,
+        "initial_crossed_ropes": 10,
+        "solution_moves": 5,
+        "solvable_in_cyclic_model": true,
+        "optimality_certified": false,
+        "solvable_in_proposed_layer_model": true,
+        "solution_uses_only_unobstructed_ropes": true,
+        "remaining_ropes": 0,
+        "engine_certified": false
+      },
+      "initial_free_anchors": [
+        5,
+        7,
+        9,
+        20
+      ],
+      "difficulty_estimate": "media",
+      "layer_order": [
+        7,
+        3,
+        4,
+        2,
+        5,
+        6,
+        10,
+        1,
+        9,
+        8
+      ]
+    },
+    {
+      "level": 4,
+      "schema_id": "INT-L04-005",
+      "mode": "intrecci",
+      "columns": 8,
+      "rows": 10,
+      "anchors": [
+        {
+          "id": 1,
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": 2,
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": 3,
+          "x": 3,
+          "y": 1
+        },
+        {
+          "id": 4,
+          "x": 5,
+          "y": 1
+        },
+        {
+          "id": 5,
+          "x": 6,
+          "y": 1
+        },
+        {
+          "id": 6,
+          "x": 7,
+          "y": 1
+        },
+        {
+          "id": 7,
+          "x": 8,
+          "y": 2
+        },
+        {
+          "id": 8,
+          "x": 8,
+          "y": 3
+        },
+        {
+          "id": 9,
+          "x": 8,
+          "y": 4
+        },
+        {
+          "id": 10,
+          "x": 8,
+          "y": 6
+        },
+        {
+          "id": 11,
+          "x": 8,
+          "y": 7
+        },
+        {
+          "id": 12,
+          "x": 8,
+          "y": 8
+        },
+        {
+          "id": 13,
+          "x": 8,
+          "y": 10
+        },
+        {
+          "id": 14,
+          "x": 7,
+          "y": 10
+        },
+        {
+          "id": 15,
+          "x": 6,
+          "y": 10
+        },
+        {
+          "id": 16,
+          "x": 4,
+          "y": 10
+        },
+        {
+          "id": 17,
+          "x": 3,
+          "y": 10
+        },
+        {
+          "id": 18,
+          "x": 2,
+          "y": 10
+        },
+        {
+          "id": 19,
+          "x": 1,
+          "y": 9
+        },
+        {
+          "id": 20,
+          "x": 1,
+          "y": 8
+        },
+        {
+          "id": 21,
+          "x": 1,
+          "y": 7
+        },
+        {
+          "id": 22,
+          "x": 1,
+          "y": 5
+        },
+        {
+          "id": 23,
+          "x": 1,
+          "y": 4
+        },
+        {
+          "id": 24,
+          "x": 1,
+          "y": 3
+        }
+      ],
+      "ropes": [
+        {
+          "id": 1,
+          "endpoints": [
+            9,
+            16
+          ],
+          "color": "giallo",
+          "color_hex": "#FFD326"
+        },
+        {
+          "id": 2,
+          "endpoints": [
+            19,
+            13
+          ],
+          "color": "rosa",
+          "color_hex": "#F43C9B"
+        },
+        {
+          "id": 3,
+          "endpoints": [
+            6,
+            10
+          ],
+          "color": "celeste",
+          "color_hex": "#23C8F4"
+        },
+        {
+          "id": 4,
+          "endpoints": [
+            15,
+            3
+          ],
+          "color": "viola",
+          "color_hex": "#A15AF4"
+        },
+        {
+          "id": 5,
+          "endpoints": [
+            24,
+            12
+          ],
+          "color": "verde_lime",
+          "color_hex": "#79D51C"
+        },
+        {
+          "id": 6,
+          "endpoints": [
+            11,
+            17
+          ],
+          "color": "arancione",
+          "color_hex": "#FF941A"
+        },
+        {
+          "id": 7,
+          "endpoints": [
+            8,
+            23
+          ],
+          "color": "rosso",
+          "color_hex": "#F3484D"
+        },
+        {
+          "id": 8,
+          "endpoints": [
+            21,
+            5
+          ],
+          "color": "blu",
+          "color_hex": "#3265DC"
+        },
+        {
+          "id": 9,
+          "endpoints": [
+            1,
+            14
+          ],
+          "color": "turchese",
+          "color_hex": "#13B89A"
+        },
+        {
+          "id": 10,
+          "endpoints": [
+            22,
+            18
+          ],
+          "color": "bianco_perla",
+          "color_hex": "#F3F4EF"
+        }
+      ],
+      "solution": [
+        {
+          "rope_id": 4,
+          "from": 15,
+          "to": 4,
+          "removed_rope_ids": [
+            4
+          ],
+          "remaining_ropes": 9
+        },
+        {
+          "rope_id": 9,
+          "from": 14,
+          "to": 2,
+          "removed_rope_ids": [
+            9
+          ],
+          "remaining_ropes": 8
+        },
+        {
+          "rope_id": 5,
+          "from": 12,
+          "to": 2,
+          "removed_rope_ids": [
+            5
+          ],
+          "remaining_ropes": 7
+        },
+        {
+          "rope_id": 2,
+          "from": 13,
+          "to": 20,
+          "removed_rope_ids": [
+            2
+          ],
+          "remaining_ropes": 6
+        },
+        {
+          "rope_id": 8,
+          "from": 21,
+          "to": 1,
+          "removed_rope_ids": [
+            8,
+            10
+          ],
+          "remaining_ropes": 4
+        },
+        {
+          "rope_id": 3,
+          "from": 10,
+          "to": 3,
+          "removed_rope_ids": [
+            3,
+            7
+          ],
+          "remaining_ropes": 2
+        },
+        {
+          "rope_id": 1,
+          "from": 16,
+          "to": 22,
+          "removed_rope_ids": [
+            1,
+            6
+          ],
+          "remaining_ropes": 0
+        }
+      ],
+      "verification": {
+        "initial_crossing_pairs": 25,
+        "initial_crossed_ropes": 10,
+        "solution_moves": 7,
+        "solvable_in_cyclic_model": true,
+        "optimality_certified": false,
+        "solvable_in_proposed_layer_model": true,
+        "solution_uses_only_unobstructed_ropes": true,
+        "remaining_ropes": 0,
+        "engine_certified": false
+      },
+      "initial_free_anchors": [
+        2,
+        4,
+        7,
+        20
+      ],
+      "difficulty_estimate": "media",
+      "layer_order": [
+        6,
+        1,
+        7,
+        3,
+        10,
+        8,
+        2,
+        5,
+        9,
+        4
+      ]
+    },
+    {
+      "level": 5,
+      "schema_id": "INT-L05-001",
+      "mode": "intrecci",
+      "columns": 8,
+      "rows": 10,
+      "anchors": [
+        {
+          "id": 1,
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": 2,
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": 3,
+          "x": 3,
+          "y": 1
+        },
+        {
+          "id": 4,
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": 5,
+          "x": 5,
+          "y": 1
+        },
+        {
+          "id": 6,
+          "x": 6,
+          "y": 1
+        },
+        {
+          "id": 7,
+          "x": 7,
+          "y": 1
+        },
+        {
+          "id": 8,
+          "x": 8,
+          "y": 2
+        },
+        {
+          "id": 9,
+          "x": 8,
+          "y": 3
+        },
+        {
+          "id": 10,
+          "x": 8,
+          "y": 4
+        },
+        {
+          "id": 11,
+          "x": 8,
+          "y": 5
+        },
+        {
+          "id": 12,
+          "x": 8,
+          "y": 6
+        },
+        {
+          "id": 13,
+          "x": 8,
+          "y": 7
+        },
+        {
+          "id": 14,
+          "x": 8,
+          "y": 8
+        },
+        {
+          "id": 15,
+          "x": 8,
+          "y": 10
+        },
+        {
+          "id": 16,
+          "x": 7,
+          "y": 10
+        },
+        {
+          "id": 17,
+          "x": 6,
+          "y": 10
+        },
+        {
+          "id": 18,
+          "x": 5,
+          "y": 10
+        },
+        {
+          "id": 19,
+          "x": 4,
+          "y": 10
+        },
+        {
+          "id": 20,
+          "x": 3,
+          "y": 10
+        },
+        {
+          "id": 21,
+          "x": 2,
+          "y": 10
+        },
+        {
+          "id": 22,
+          "x": 1,
+          "y": 9
+        },
+        {
+          "id": 23,
+          "x": 1,
+          "y": 8
+        },
+        {
+          "id": 24,
+          "x": 1,
+          "y": 7
+        },
+        {
+          "id": 25,
+          "x": 1,
+          "y": 6
+        },
+        {
+          "id": 26,
+          "x": 1,
+          "y": 5
+        },
+        {
+          "id": 27,
+          "x": 1,
+          "y": 4
+        },
+        {
+          "id": 28,
+          "x": 1,
+          "y": 3
+        }
+      ],
+      "ropes": [
+        {
+          "id": 1,
+          "endpoints": [
+            22,
+            11
+          ],
+          "color": "giallo",
+          "color_hex": "#FFD326"
+        },
+        {
+          "id": 2,
+          "endpoints": [
+            21,
+            5
+          ],
+          "color": "rosa",
+          "color_hex": "#F43C9B"
+        },
+        {
+          "id": 3,
+          "endpoints": [
+            10,
+            20
+          ],
+          "color": "celeste",
+          "color_hex": "#23C8F4"
+        },
+        {
+          "id": 4,
+          "endpoints": [
+            18,
+            2
+          ],
+          "color": "viola",
+          "color_hex": "#A15AF4"
+        },
+        {
+          "id": 5,
+          "endpoints": [
+            28,
+            15
+          ],
+          "color": "verde_lime",
+          "color_hex": "#79D51C"
+        },
+        {
+          "id": 6,
+          "endpoints": [
+            6,
+            4
+          ],
+          "color": "arancione",
+          "color_hex": "#FF941A"
+        },
+        {
+          "id": 7,
+          "endpoints": [
+            9,
+            1
+          ],
+          "color": "rosso",
+          "color_hex": "#F3484D"
+        },
+        {
+          "id": 8,
+          "endpoints": [
+            14,
+            25
+          ],
+          "color": "blu",
+          "color_hex": "#3265DC"
+        },
+        {
+          "id": 9,
+          "endpoints": [
+            17,
+            23
+          ],
+          "color": "turchese",
+          "color_hex": "#13B89A"
+        },
+        {
+          "id": 10,
+          "endpoints": [
+            19,
+            26
+          ],
+          "color": "bianco_perla",
+          "color_hex": "#F3F4EF"
+        },
+        {
+          "id": 11,
+          "endpoints": [
+            24,
+            13
+          ],
+          "color": "magenta",
+          "color_hex": "#B61C73"
+        },
+        {
+          "id": 12,
+          "endpoints": [
+            7,
+            27
+          ],
+          "color": "ocra",
+          "color_hex": "#B58B28"
+        }
+      ],
+      "solution": [
+        {
+          "rope_id": 4,
+          "from": 18,
+          "to": 3,
+          "removed_rope_ids": [
+            4
+          ],
+          "remaining_ropes": 11
+        },
+        {
+          "rope_id": 1,
+          "from": 22,
+          "to": 12,
+          "removed_rope_ids": [
+            1
+          ],
+          "remaining_ropes": 10
+        },
+        {
+          "rope_id": 2,
+          "from": 5,
+          "to": 22,
+          "removed_rope_ids": [
+            2,
+            6
+          ],
+          "remaining_ropes": 8
+        },
+        {
+          "rope_id": 12,
+          "from": 27,
+          "to": 5,
+          "removed_rope_ids": [
+            7,
+            12
+          ],
+          "remaining_ropes": 6
+        },
+        {
+          "rope_id": 3,
+          "from": 20,
+          "to": 9,
+          "removed_rope_ids": [
+            3
+          ],
+          "remaining_ropes": 5
+        },
+        {
+          "rope_id": 10,
+          "from": 26,
+          "to": 22,
+          "removed_rope_ids": [
+            9,
+            10
+          ],
+          "remaining_ropes": 3
+        },
+        {
+          "rope_id": 11,
+          "from": 13,
+          "to": 21,
+          "removed_rope_ids": [
+            11
+          ],
+          "remaining_ropes": 2
+        },
+        {
+          "rope_id": 5,
+          "from": 15,
+          "to": 3,
+          "removed_rope_ids": [
+            5,
+            8
+          ],
+          "remaining_ropes": 0
+        }
+      ],
+      "verification": {
+        "initial_crossing_pairs": 37,
+        "initial_crossed_ropes": 12,
+        "solution_moves": 8,
+        "solvable_in_cyclic_model": true,
+        "optimality_certified": false,
+        "solvable_in_proposed_layer_model": true,
+        "solution_uses_only_unobstructed_ropes": true,
+        "remaining_ropes": 0,
+        "engine_certified": false
+      },
+      "initial_free_anchors": [
+        3,
+        8,
+        12,
+        16
+      ],
+      "difficulty_estimate": "medio-alta",
+      "layer_order": [
+        8,
+        5,
+        11,
+        9,
+        10,
+        3,
+        7,
+        12,
+        6,
+        2,
+        1,
+        4
+      ]
+    },
+    {
+      "level": 5,
+      "schema_id": "INT-L05-002",
+      "mode": "intrecci",
+      "columns": 8,
+      "rows": 10,
+      "anchors": [
+        {
+          "id": 1,
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": 2,
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": 3,
+          "x": 3,
+          "y": 1
+        },
+        {
+          "id": 4,
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": 5,
+          "x": 5,
+          "y": 1
+        },
+        {
+          "id": 6,
+          "x": 6,
+          "y": 1
+        },
+        {
+          "id": 7,
+          "x": 7,
+          "y": 1
+        },
+        {
+          "id": 8,
+          "x": 8,
+          "y": 2
+        },
+        {
+          "id": 9,
+          "x": 8,
+          "y": 3
+        },
+        {
+          "id": 10,
+          "x": 8,
+          "y": 4
+        },
+        {
+          "id": 11,
+          "x": 8,
+          "y": 5
+        },
+        {
+          "id": 12,
+          "x": 8,
+          "y": 6
+        },
+        {
+          "id": 13,
+          "x": 8,
+          "y": 7
+        },
+        {
+          "id": 14,
+          "x": 8,
+          "y": 8
+        },
+        {
+          "id": 15,
+          "x": 8,
+          "y": 10
+        },
+        {
+          "id": 16,
+          "x": 7,
+          "y": 10
+        },
+        {
+          "id": 17,
+          "x": 6,
+          "y": 10
+        },
+        {
+          "id": 18,
+          "x": 5,
+          "y": 10
+        },
+        {
+          "id": 19,
+          "x": 4,
+          "y": 10
+        },
+        {
+          "id": 20,
+          "x": 3,
+          "y": 10
+        },
+        {
+          "id": 21,
+          "x": 2,
+          "y": 10
+        },
+        {
+          "id": 22,
+          "x": 1,
+          "y": 9
+        },
+        {
+          "id": 23,
+          "x": 1,
+          "y": 8
+        },
+        {
+          "id": 24,
+          "x": 1,
+          "y": 7
+        },
+        {
+          "id": 25,
+          "x": 1,
+          "y": 6
+        },
+        {
+          "id": 26,
+          "x": 1,
+          "y": 5
+        },
+        {
+          "id": 27,
+          "x": 1,
+          "y": 4
+        },
+        {
+          "id": 28,
+          "x": 1,
+          "y": 3
+        }
+      ],
+      "ropes": [
+        {
+          "id": 1,
+          "endpoints": [
+            2,
+            14
+          ],
+          "color": "giallo",
+          "color_hex": "#FFD326"
+        },
+        {
+          "id": 2,
+          "endpoints": [
+            17,
+            28
+          ],
+          "color": "rosa",
+          "color_hex": "#F43C9B"
+        },
+        {
+          "id": 3,
+          "endpoints": [
+            24,
+            10
+          ],
+          "color": "celeste",
+          "color_hex": "#23C8F4"
+        },
+        {
+          "id": 4,
+          "endpoints": [
+            23,
+            3
+          ],
+          "color": "viola",
+          "color_hex": "#A15AF4"
+        },
+        {
+          "id": 5,
+          "endpoints": [
+            1,
+            5
+          ],
+          "color": "verde_lime",
+          "color_hex": "#79D51C"
+        },
+        {
+          "id": 6,
+          "endpoints": [
+            13,
+            21
+          ],
+          "color": "arancione",
+          "color_hex": "#FF941A"
+        },
+        {
+          "id": 7,
+          "endpoints": [
+            15,
+            9
+          ],
+          "color": "rosso",
+          "color_hex": "#F3484D"
+        },
+        {
+          "id": 8,
+          "endpoints": [
+            7,
+            26
+          ],
+          "color": "blu",
+          "color_hex": "#3265DC"
+        },
+        {
+          "id": 9,
+          "endpoints": [
+            11,
+            6
+          ],
+          "color": "turchese",
+          "color_hex": "#13B89A"
+        },
+        {
+          "id": 10,
+          "endpoints": [
+            16,
+            25
+          ],
+          "color": "bianco_perla",
+          "color_hex": "#F3F4EF"
+        },
+        {
+          "id": 11,
+          "endpoints": [
+            20,
+            12
+          ],
+          "color": "magenta",
+          "color_hex": "#B61C73"
+        },
+        {
+          "id": 12,
+          "endpoints": [
+            22,
+            27
+          ],
+          "color": "ocra",
+          "color_hex": "#B58B28"
+        }
+      ],
+      "solution": [
+        {
+          "rope_id": 4,
+          "from": 23,
+          "to": 4,
+          "removed_rope_ids": [
+            4
+          ],
+          "remaining_ropes": 11
+        },
+        {
+          "rope_id": 1,
+          "from": 14,
+          "to": 4,
+          "removed_rope_ids": [
+            1,
+            5
+          ],
+          "remaining_ropes": 9
+        },
+        {
+          "rope_id": 2,
+          "from": 17,
+          "to": 2,
+          "removed_rope_ids": [
+            2
+          ],
+          "remaining_ropes": 8
+        },
+        {
+          "rope_id": 7,
+          "from": 9,
+          "to": 14,
+          "removed_rope_ids": [
+            7
+          ],
+          "remaining_ropes": 7
+        },
+        {
+          "rope_id": 10,
+          "from": 25,
+          "to": 17,
+          "removed_rope_ids": [
+            10
+          ],
+          "remaining_ropes": 6
+        },
+        {
+          "rope_id": 11,
+          "from": 12,
+          "to": 16,
+          "removed_rope_ids": [
+            6,
+            11
+          ],
+          "remaining_ropes": 4
+        },
+        {
+          "rope_id": 8,
+          "from": 26,
+          "to": 9,
+          "removed_rope_ids": [
+            8
+          ],
+          "remaining_ropes": 3
+        },
+        {
+          "rope_id": 3,
+          "from": 24,
+          "to": 8,
+          "removed_rope_ids": [
+            3,
+            9,
+            12
+          ],
+          "remaining_ropes": 0
+        }
+      ],
+      "verification": {
+        "initial_crossing_pairs": 31,
+        "initial_crossed_ropes": 12,
+        "solution_moves": 8,
+        "solvable_in_cyclic_model": true,
+        "optimality_certified": false,
+        "solvable_in_proposed_layer_model": true,
+        "solution_uses_only_unobstructed_ropes": true,
+        "remaining_ropes": 0,
+        "engine_certified": false
+      },
+      "initial_free_anchors": [
+        4,
+        8,
+        18,
+        19
+      ],
+      "difficulty_estimate": "medio-alta",
+      "layer_order": [
+        12,
+        9,
+        3,
+        8,
+        6,
+        11,
+        10,
+        7,
+        2,
+        5,
+        1,
+        4
+      ]
+    },
+    {
+      "level": 5,
+      "schema_id": "INT-L05-003",
+      "mode": "intrecci",
+      "columns": 8,
+      "rows": 10,
+      "anchors": [
+        {
+          "id": 1,
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": 2,
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": 3,
+          "x": 3,
+          "y": 1
+        },
+        {
+          "id": 4,
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": 5,
+          "x": 5,
+          "y": 1
+        },
+        {
+          "id": 6,
+          "x": 6,
+          "y": 1
+        },
+        {
+          "id": 7,
+          "x": 7,
+          "y": 1
+        },
+        {
+          "id": 8,
+          "x": 8,
+          "y": 2
+        },
+        {
+          "id": 9,
+          "x": 8,
+          "y": 3
+        },
+        {
+          "id": 10,
+          "x": 8,
+          "y": 4
+        },
+        {
+          "id": 11,
+          "x": 8,
+          "y": 5
+        },
+        {
+          "id": 12,
+          "x": 8,
+          "y": 6
+        },
+        {
+          "id": 13,
+          "x": 8,
+          "y": 7
+        },
+        {
+          "id": 14,
+          "x": 8,
+          "y": 8
+        },
+        {
+          "id": 15,
+          "x": 8,
+          "y": 10
+        },
+        {
+          "id": 16,
+          "x": 7,
+          "y": 10
+        },
+        {
+          "id": 17,
+          "x": 6,
+          "y": 10
+        },
+        {
+          "id": 18,
+          "x": 5,
+          "y": 10
+        },
+        {
+          "id": 19,
+          "x": 4,
+          "y": 10
+        },
+        {
+          "id": 20,
+          "x": 3,
+          "y": 10
+        },
+        {
+          "id": 21,
+          "x": 2,
+          "y": 10
+        },
+        {
+          "id": 22,
+          "x": 1,
+          "y": 9
+        },
+        {
+          "id": 23,
+          "x": 1,
+          "y": 8
+        },
+        {
+          "id": 24,
+          "x": 1,
+          "y": 7
+        },
+        {
+          "id": 25,
+          "x": 1,
+          "y": 6
+        },
+        {
+          "id": 26,
+          "x": 1,
+          "y": 5
+        },
+        {
+          "id": 27,
+          "x": 1,
+          "y": 4
+        },
+        {
+          "id": 28,
+          "x": 1,
+          "y": 3
+        }
+      ],
+      "ropes": [
+        {
+          "id": 1,
+          "endpoints": [
+            11,
+            4
+          ],
+          "color": "giallo",
+          "color_hex": "#FFD326"
+        },
+        {
+          "id": 2,
+          "endpoints": [
+            15,
+            28
+          ],
+          "color": "rosa",
+          "color_hex": "#F43C9B"
+        },
+        {
+          "id": 3,
+          "endpoints": [
+            8,
+            21
+          ],
+          "color": "celeste",
+          "color_hex": "#23C8F4"
+        },
+        {
+          "id": 4,
+          "endpoints": [
+            17,
+            19
+          ],
+          "color": "viola",
+          "color_hex": "#A15AF4"
+        },
+        {
+          "id": 5,
+          "endpoints": [
+            20,
+            27
+          ],
+          "color": "verde_lime",
+          "color_hex": "#79D51C"
+        },
+        {
+          "id": 6,
+          "endpoints": [
+            6,
+            26
+          ],
+          "color": "arancione",
+          "color_hex": "#FF941A"
+        },
+        {
+          "id": 7,
+          "endpoints": [
+            23,
+            3
+          ],
+          "color": "rosso",
+          "color_hex": "#F3484D"
+        },
+        {
+          "id": 8,
+          "endpoints": [
+            13,
+            9
+          ],
+          "color": "blu",
+          "color_hex": "#3265DC"
+        },
+        {
+          "id": 9,
+          "endpoints": [
+            18,
+            1
+          ],
+          "color": "turchese",
+          "color_hex": "#13B89A"
+        },
+        {
+          "id": 10,
+          "endpoints": [
+            24,
+            7
+          ],
+          "color": "bianco_perla",
+          "color_hex": "#F3F4EF"
+        },
+        {
+          "id": 11,
+          "endpoints": [
+            2,
+            10
+          ],
+          "color": "magenta",
+          "color_hex": "#B61C73"
+        },
+        {
+          "id": 12,
+          "endpoints": [
+            5,
+            16
+          ],
+          "color": "ocra",
+          "color_hex": "#B58B28"
+        }
+      ],
+      "solution": [
+        {
+          "rope_id": 6,
+          "from": 6,
+          "to": 25,
+          "removed_rope_ids": [
+            6
+          ],
+          "remaining_ropes": 11
+        },
+        {
+          "rope_id": 10,
+          "from": 7,
+          "to": 26,
+          "removed_rope_ids": [
+            10
+          ],
+          "remaining_ropes": 10
+        },
+        {
+          "rope_id": 3,
+          "from": 21,
+          "to": 6,
+          "removed_rope_ids": [
+            3
+          ],
+          "remaining_ropes": 9
+        },
+        {
+          "rope_id": 7,
+          "from": 3,
+          "to": 22,
+          "removed_rope_ids": [
+            5,
+            7
+          ],
+          "remaining_ropes": 7
+        },
+        {
+          "rope_id": 12,
+          "from": 16,
+          "to": 6,
+          "removed_rope_ids": [
+            12
+          ],
+          "remaining_ropes": 6
+        },
+        {
+          "rope_id": 9,
+          "from": 18,
+          "to": 14,
+          "removed_rope_ids": [
+            2,
+            4,
+            9
+          ],
+          "remaining_ropes": 3
+        },
+        {
+          "rope_id": 1,
+          "from": 11,
+          "to": 5,
+          "removed_rope_ids": [
+            1
+          ],
+          "remaining_ropes": 2
+        },
+        {
+          "rope_id": 8,
+          "from": 9,
+          "to": 12,
+          "removed_rope_ids": [
+            8,
+            11
+          ],
+          "remaining_ropes": 0
+        }
+      ],
+      "verification": {
+        "initial_crossing_pairs": 32,
+        "initial_crossed_ropes": 12,
+        "solution_moves": 8,
+        "solvable_in_cyclic_model": true,
+        "optimality_certified": false,
+        "solvable_in_proposed_layer_model": true,
+        "solution_uses_only_unobstructed_ropes": true,
+        "remaining_ropes": 0,
+        "engine_certified": false
+      },
+      "initial_free_anchors": [
+        12,
+        14,
+        22,
+        25
+      ],
+      "difficulty_estimate": "medio-alta",
+      "layer_order": [
+        11,
+        8,
+        1,
+        4,
+        2,
+        9,
+        12,
+        5,
+        7,
+        3,
+        10,
+        6
+      ]
+    },
+    {
+      "level": 5,
+      "schema_id": "INT-L05-004",
+      "mode": "intrecci",
+      "columns": 8,
+      "rows": 10,
+      "anchors": [
+        {
+          "id": 1,
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": 2,
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": 3,
+          "x": 3,
+          "y": 1
+        },
+        {
+          "id": 4,
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": 5,
+          "x": 5,
+          "y": 1
+        },
+        {
+          "id": 6,
+          "x": 6,
+          "y": 1
+        },
+        {
+          "id": 7,
+          "x": 7,
+          "y": 1
+        },
+        {
+          "id": 8,
+          "x": 8,
+          "y": 2
+        },
+        {
+          "id": 9,
+          "x": 8,
+          "y": 3
+        },
+        {
+          "id": 10,
+          "x": 8,
+          "y": 4
+        },
+        {
+          "id": 11,
+          "x": 8,
+          "y": 5
+        },
+        {
+          "id": 12,
+          "x": 8,
+          "y": 6
+        },
+        {
+          "id": 13,
+          "x": 8,
+          "y": 7
+        },
+        {
+          "id": 14,
+          "x": 8,
+          "y": 8
+        },
+        {
+          "id": 15,
+          "x": 8,
+          "y": 10
+        },
+        {
+          "id": 16,
+          "x": 7,
+          "y": 10
+        },
+        {
+          "id": 17,
+          "x": 6,
+          "y": 10
+        },
+        {
+          "id": 18,
+          "x": 5,
+          "y": 10
+        },
+        {
+          "id": 19,
+          "x": 4,
+          "y": 10
+        },
+        {
+          "id": 20,
+          "x": 3,
+          "y": 10
+        },
+        {
+          "id": 21,
+          "x": 2,
+          "y": 10
+        },
+        {
+          "id": 22,
+          "x": 1,
+          "y": 9
+        },
+        {
+          "id": 23,
+          "x": 1,
+          "y": 8
+        },
+        {
+          "id": 24,
+          "x": 1,
+          "y": 7
+        },
+        {
+          "id": 25,
+          "x": 1,
+          "y": 6
+        },
+        {
+          "id": 26,
+          "x": 1,
+          "y": 5
+        },
+        {
+          "id": 27,
+          "x": 1,
+          "y": 4
+        },
+        {
+          "id": 28,
+          "x": 1,
+          "y": 3
+        }
+      ],
+      "ropes": [
+        {
+          "id": 1,
+          "endpoints": [
+            20,
+            12
+          ],
+          "color": "giallo",
+          "color_hex": "#FFD326"
+        },
+        {
+          "id": 2,
+          "endpoints": [
+            26,
+            13
+          ],
+          "color": "rosa",
+          "color_hex": "#F43C9B"
+        },
+        {
+          "id": 3,
+          "endpoints": [
+            10,
+            8
+          ],
+          "color": "celeste",
+          "color_hex": "#23C8F4"
+        },
+        {
+          "id": 4,
+          "endpoints": [
+            25,
+            7
+          ],
+          "color": "viola",
+          "color_hex": "#A15AF4"
+        },
+        {
+          "id": 5,
+          "endpoints": [
+            24,
+            14
+          ],
+          "color": "verde_lime",
+          "color_hex": "#79D51C"
+        },
+        {
+          "id": 6,
+          "endpoints": [
+            19,
+            4
+          ],
+          "color": "arancione",
+          "color_hex": "#FF941A"
+        },
+        {
+          "id": 7,
+          "endpoints": [
+            21,
+            15
+          ],
+          "color": "rosso",
+          "color_hex": "#F3484D"
+        },
+        {
+          "id": 8,
+          "endpoints": [
+            18,
+            1
+          ],
+          "color": "blu",
+          "color_hex": "#3265DC"
+        },
+        {
+          "id": 9,
+          "endpoints": [
+            11,
+            28
+          ],
+          "color": "turchese",
+          "color_hex": "#13B89A"
+        },
+        {
+          "id": 10,
+          "endpoints": [
+            23,
+            5
+          ],
+          "color": "bianco_perla",
+          "color_hex": "#F3F4EF"
+        },
+        {
+          "id": 11,
+          "endpoints": [
+            2,
+            22
+          ],
+          "color": "magenta",
+          "color_hex": "#B61C73"
+        },
+        {
+          "id": 12,
+          "endpoints": [
+            9,
+            3
+          ],
+          "color": "ocra",
+          "color_hex": "#B58B28"
+        }
+      ],
+      "solution": [
+        {
+          "rope_id": 8,
+          "from": 1,
+          "to": 16,
+          "removed_rope_ids": [
+            8
+          ],
+          "remaining_ropes": 11
+        },
+        {
+          "rope_id": 6,
+          "from": 4,
+          "to": 18,
+          "removed_rope_ids": [
+            6
+          ],
+          "remaining_ropes": 10
+        },
+        {
+          "rope_id": 1,
+          "from": 12,
+          "to": 16,
+          "removed_rope_ids": [
+            1,
+            7
+          ],
+          "remaining_ropes": 8
+        },
+        {
+          "rope_id": 12,
+          "from": 9,
+          "to": 4,
+          "removed_rope_ids": [
+            3,
+            12
+          ],
+          "remaining_ropes": 6
+        },
+        {
+          "rope_id": 11,
+          "from": 22,
+          "to": 3,
+          "removed_rope_ids": [
+            11
+          ],
+          "remaining_ropes": 5
+        },
+        {
+          "rope_id": 10,
+          "from": 5,
+          "to": 15,
+          "removed_rope_ids": [
+            5,
+            10
+          ],
+          "remaining_ropes": 3
+        },
+        {
+          "rope_id": 4,
+          "from": 25,
+          "to": 5,
+          "removed_rope_ids": [
+            2,
+            4,
+            9
+          ],
+          "remaining_ropes": 0
+        }
+      ],
+      "verification": {
+        "initial_crossing_pairs": 34,
+        "initial_crossed_ropes": 12,
+        "solution_moves": 7,
+        "solvable_in_cyclic_model": true,
+        "optimality_certified": false,
+        "solvable_in_proposed_layer_model": true,
+        "solution_uses_only_unobstructed_ropes": true,
+        "remaining_ropes": 0,
+        "engine_certified": false
+      },
+      "initial_free_anchors": [
+        6,
+        16,
+        17,
+        27
+      ],
+      "difficulty_estimate": "medio-alta",
+      "layer_order": [
+        9,
+        2,
+        4,
+        5,
+        10,
+        11,
+        3,
+        12,
+        7,
+        1,
+        6,
+        8
+      ]
+    },
+    {
+      "level": 5,
+      "schema_id": "INT-L05-005",
+      "mode": "intrecci",
+      "columns": 8,
+      "rows": 10,
+      "anchors": [
+        {
+          "id": 1,
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": 2,
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": 3,
+          "x": 3,
+          "y": 1
+        },
+        {
+          "id": 4,
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": 5,
+          "x": 5,
+          "y": 1
+        },
+        {
+          "id": 6,
+          "x": 6,
+          "y": 1
+        },
+        {
+          "id": 7,
+          "x": 7,
+          "y": 1
+        },
+        {
+          "id": 8,
+          "x": 8,
+          "y": 2
+        },
+        {
+          "id": 9,
+          "x": 8,
+          "y": 3
+        },
+        {
+          "id": 10,
+          "x": 8,
+          "y": 4
+        },
+        {
+          "id": 11,
+          "x": 8,
+          "y": 5
+        },
+        {
+          "id": 12,
+          "x": 8,
+          "y": 6
+        },
+        {
+          "id": 13,
+          "x": 8,
+          "y": 7
+        },
+        {
+          "id": 14,
+          "x": 8,
+          "y": 8
+        },
+        {
+          "id": 15,
+          "x": 8,
+          "y": 10
+        },
+        {
+          "id": 16,
+          "x": 7,
+          "y": 10
+        },
+        {
+          "id": 17,
+          "x": 6,
+          "y": 10
+        },
+        {
+          "id": 18,
+          "x": 5,
+          "y": 10
+        },
+        {
+          "id": 19,
+          "x": 4,
+          "y": 10
+        },
+        {
+          "id": 20,
+          "x": 3,
+          "y": 10
+        },
+        {
+          "id": 21,
+          "x": 2,
+          "y": 10
+        },
+        {
+          "id": 22,
+          "x": 1,
+          "y": 9
+        },
+        {
+          "id": 23,
+          "x": 1,
+          "y": 8
+        },
+        {
+          "id": 24,
+          "x": 1,
+          "y": 7
+        },
+        {
+          "id": 25,
+          "x": 1,
+          "y": 6
+        },
+        {
+          "id": 26,
+          "x": 1,
+          "y": 5
+        },
+        {
+          "id": 27,
+          "x": 1,
+          "y": 4
+        },
+        {
+          "id": 28,
+          "x": 1,
+          "y": 3
+        }
+      ],
+      "ropes": [
+        {
+          "id": 1,
+          "endpoints": [
+            7,
+            23
+          ],
+          "color": "giallo",
+          "color_hex": "#FFD326"
+        },
+        {
+          "id": 2,
+          "endpoints": [
+            1,
+            22
+          ],
+          "color": "rosa",
+          "color_hex": "#F43C9B"
+        },
+        {
+          "id": 3,
+          "endpoints": [
+            20,
+            17
+          ],
+          "color": "celeste",
+          "color_hex": "#23C8F4"
+        },
+        {
+          "id": 4,
+          "endpoints": [
+            11,
+            4
+          ],
+          "color": "viola",
+          "color_hex": "#A15AF4"
+        },
+        {
+          "id": 5,
+          "endpoints": [
+            15,
+            27
+          ],
+          "color": "verde_lime",
+          "color_hex": "#79D51C"
+        },
+        {
+          "id": 6,
+          "endpoints": [
+            9,
+            25
+          ],
+          "color": "arancione",
+          "color_hex": "#FF941A"
+        },
+        {
+          "id": 7,
+          "endpoints": [
+            18,
+            12
+          ],
+          "color": "rosso",
+          "color_hex": "#F3484D"
+        },
+        {
+          "id": 8,
+          "endpoints": [
+            19,
+            5
+          ],
+          "color": "blu",
+          "color_hex": "#3265DC"
+        },
+        {
+          "id": 9,
+          "endpoints": [
+            26,
+            13
+          ],
+          "color": "turchese",
+          "color_hex": "#13B89A"
+        },
+        {
+          "id": 10,
+          "endpoints": [
+            10,
+            2
+          ],
+          "color": "bianco_perla",
+          "color_hex": "#F3F4EF"
+        },
+        {
+          "id": 11,
+          "endpoints": [
+            24,
+            8
+          ],
+          "color": "magenta",
+          "color_hex": "#B61C73"
+        },
+        {
+          "id": 12,
+          "endpoints": [
+            21,
+            14
+          ],
+          "color": "ocra",
+          "color_hex": "#B58B28"
+        }
+      ],
+      "solution": [
+        {
+          "rope_id": 8,
+          "from": 19,
+          "to": 6,
+          "removed_rope_ids": [
+            8
+          ],
+          "remaining_ropes": 11
+        },
+        {
+          "rope_id": 7,
+          "from": 12,
+          "to": 19,
+          "removed_rope_ids": [
+            3,
+            7
+          ],
+          "remaining_ropes": 9
+        },
+        {
+          "rope_id": 5,
+          "from": 27,
+          "to": 16,
+          "removed_rope_ids": [
+            5,
+            12
+          ],
+          "remaining_ropes": 7
+        },
+        {
+          "rope_id": 1,
+          "from": 23,
+          "to": 6,
+          "removed_rope_ids": [
+            1
+          ],
+          "remaining_ropes": 6
+        },
+        {
+          "rope_id": 11,
+          "from": 24,
+          "to": 7,
+          "removed_rope_ids": [
+            11
+          ],
+          "remaining_ropes": 5
+        },
+        {
+          "rope_id": 6,
+          "from": 25,
+          "to": 6,
+          "removed_rope_ids": [
+            6
+          ],
+          "remaining_ropes": 4
+        },
+        {
+          "rope_id": 10,
+          "from": 2,
+          "to": 6,
+          "removed_rope_ids": [
+            4,
+            10
+          ],
+          "remaining_ropes": 2
+        },
+        {
+          "rope_id": 2,
+          "from": 1,
+          "to": 24,
+          "removed_rope_ids": [
+            2,
+            9
+          ],
+          "remaining_ropes": 0
+        }
+      ],
+      "verification": {
+        "initial_crossing_pairs": 36,
+        "initial_crossed_ropes": 12,
+        "solution_moves": 8,
+        "solvable_in_cyclic_model": true,
+        "optimality_certified": false,
+        "solvable_in_proposed_layer_model": true,
+        "solution_uses_only_unobstructed_ropes": true,
+        "remaining_ropes": 0,
+        "engine_certified": false
+      },
+      "initial_free_anchors": [
+        3,
+        6,
+        16,
+        28
+      ],
+      "difficulty_estimate": "medio-alta",
+      "layer_order": [
+        9,
+        2,
+        4,
+        10,
+        6,
+        11,
+        1,
+        12,
+        5,
+        3,
+        7,
+        8
+      ]
+    },
+    {
+      "level": 6,
+      "schema_id": "INT-L06-001",
+      "mode": "intrecci",
+      "columns": 8,
+      "rows": 10,
+      "anchors": [
+        {
+          "id": 1,
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": 2,
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": 3,
+          "x": 3,
+          "y": 1
+        },
+        {
+          "id": 4,
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": 5,
+          "x": 5,
+          "y": 1
+        },
+        {
+          "id": 6,
+          "x": 6,
+          "y": 1
+        },
+        {
+          "id": 7,
+          "x": 7,
+          "y": 1
+        },
+        {
+          "id": 8,
+          "x": 8,
+          "y": 1
+        },
+        {
+          "id": 9,
+          "x": 8,
+          "y": 2
+        },
+        {
+          "id": 10,
+          "x": 8,
+          "y": 3
+        },
+        {
+          "id": 11,
+          "x": 8,
+          "y": 4
+        },
+        {
+          "id": 12,
+          "x": 8,
+          "y": 5
+        },
+        {
+          "id": 13,
+          "x": 8,
+          "y": 6
+        },
+        {
+          "id": 14,
+          "x": 8,
+          "y": 7
+        },
+        {
+          "id": 15,
+          "x": 8,
+          "y": 8
+        },
+        {
+          "id": 16,
+          "x": 8,
+          "y": 9
+        },
+        {
+          "id": 17,
+          "x": 8,
+          "y": 10
+        },
+        {
+          "id": 18,
+          "x": 7,
+          "y": 10
+        },
+        {
+          "id": 19,
+          "x": 6,
+          "y": 10
+        },
+        {
+          "id": 20,
+          "x": 5,
+          "y": 10
+        },
+        {
+          "id": 21,
+          "x": 4,
+          "y": 10
+        },
+        {
+          "id": 22,
+          "x": 3,
+          "y": 10
+        },
+        {
+          "id": 23,
+          "x": 2,
+          "y": 10
+        },
+        {
+          "id": 24,
+          "x": 1,
+          "y": 10
+        },
+        {
+          "id": 25,
+          "x": 1,
+          "y": 9
+        },
+        {
+          "id": 26,
+          "x": 1,
+          "y": 8
+        },
+        {
+          "id": 27,
+          "x": 1,
+          "y": 7
+        },
+        {
+          "id": 28,
+          "x": 1,
+          "y": 6
+        },
+        {
+          "id": 29,
+          "x": 1,
+          "y": 5
+        },
+        {
+          "id": 30,
+          "x": 1,
+          "y": 4
+        },
+        {
+          "id": 31,
+          "x": 1,
+          "y": 3
+        },
+        {
+          "id": 32,
+          "x": 1,
+          "y": 2
+        }
+      ],
+      "ropes": [
+        {
+          "id": 1,
+          "endpoints": [
+            28,
+            7
+          ],
+          "color": "giallo",
+          "color_hex": "#FFD326"
+        },
+        {
+          "id": 2,
+          "endpoints": [
+            3,
+            25
+          ],
+          "color": "rosa",
+          "color_hex": "#F43C9B"
+        },
+        {
+          "id": 3,
+          "endpoints": [
+            20,
+            14
+          ],
+          "color": "celeste",
+          "color_hex": "#23C8F4"
+        },
+        {
+          "id": 4,
+          "endpoints": [
+            1,
+            18
+          ],
+          "color": "viola",
+          "color_hex": "#A15AF4"
+        },
+        {
+          "id": 5,
+          "endpoints": [
+            23,
+            10
+          ],
+          "color": "verde_lime",
+          "color_hex": "#79D51C"
+        },
+        {
+          "id": 6,
+          "endpoints": [
+            9,
+            31
+          ],
+          "color": "arancione",
+          "color_hex": "#FF941A"
+        },
+        {
+          "id": 7,
+          "endpoints": [
+            21,
+            2
+          ],
+          "color": "rosso",
+          "color_hex": "#F3484D"
+        },
+        {
+          "id": 8,
+          "endpoints": [
+            24,
+            11
+          ],
+          "color": "blu",
+          "color_hex": "#3265DC"
+        },
+        {
+          "id": 9,
+          "endpoints": [
+            12,
+            32
+          ],
+          "color": "turchese",
+          "color_hex": "#13B89A"
+        },
+        {
+          "id": 10,
+          "endpoints": [
+            27,
+            4
+          ],
+          "color": "bianco_perla",
+          "color_hex": "#F3F4EF"
+        },
+        {
+          "id": 11,
+          "endpoints": [
+            6,
+            22
+          ],
+          "color": "magenta",
+          "color_hex": "#B61C73"
+        },
+        {
+          "id": 12,
+          "endpoints": [
+            15,
+            8
+          ],
+          "color": "ocra",
+          "color_hex": "#B58B28"
+        },
+        {
+          "id": 13,
+          "endpoints": [
+            13,
+            19
+          ],
+          "color": "verde_scuro",
+          "color_hex": "#176F39"
+        },
+        {
+          "id": 14,
+          "endpoints": [
+            26,
+            30
+          ],
+          "color": "lavanda",
+          "color_hex": "#C5A9F2"
+        }
+      ],
+      "solution": [
+        {
+          "rope_id": 4,
+          "from": 1,
+          "to": 16,
+          "removed_rope_ids": [
+            4
+          ],
+          "remaining_ropes": 13
+        },
+        {
+          "rope_id": 9,
+          "from": 12,
+          "to": 1,
+          "removed_rope_ids": [
+            9
+          ],
+          "remaining_ropes": 12
+        },
+        {
+          "rope_id": 7,
+          "from": 21,
+          "to": 1,
+          "removed_rope_ids": [
+            7
+          ],
+          "remaining_ropes": 11
+        },
+        {
+          "rope_id": 12,
+          "from": 8,
+          "to": 16,
+          "removed_rope_ids": [
+            12
+          ],
+          "remaining_ropes": 10
+        },
+        {
+          "rope_id": 13,
+          "from": 13,
+          "to": 17,
+          "removed_rope_ids": [
+            3,
+            13
+          ],
+          "remaining_ropes": 8
+        },
+        {
+          "rope_id": 1,
+          "from": 28,
+          "to": 8,
+          "removed_rope_ids": [
+            1
+          ],
+          "remaining_ropes": 7
+        },
+        {
+          "rope_id": 10,
+          "from": 4,
+          "to": 29,
+          "removed_rope_ids": [
+            10,
+            14
+          ],
+          "remaining_ropes": 5
+        },
+        {
+          "rope_id": 6,
+          "from": 9,
+          "to": 1,
+          "removed_rope_ids": [
+            2,
+            6
+          ],
+          "remaining_ropes": 3
+        },
+        {
+          "rope_id": 11,
+          "from": 6,
+          "to": 14,
+          "removed_rope_ids": [
+            11
+          ],
+          "remaining_ropes": 2
+        },
+        {
+          "rope_id": 5,
+          "from": 23,
+          "to": 8,
+          "removed_rope_ids": [
+            5,
+            8
+          ],
+          "remaining_ropes": 0
+        }
+      ],
+      "verification": {
+        "initial_crossing_pairs": 46,
+        "initial_crossed_ropes": 14,
+        "solution_moves": 10,
+        "solvable_in_cyclic_model": true,
+        "optimality_certified": false,
+        "solvable_in_proposed_layer_model": true,
+        "solution_uses_only_unobstructed_ropes": true,
+        "remaining_ropes": 0,
+        "engine_certified": false
+      },
+      "initial_free_anchors": [
+        5,
+        16,
+        17,
+        29
+      ],
+      "difficulty_estimate": "alta",
+      "layer_order": [
+        8,
+        5,
+        11,
+        2,
+        6,
+        14,
+        10,
+        1,
+        3,
+        13,
+        12,
+        7,
+        9,
+        4
+      ]
+    },
+    {
+      "level": 6,
+      "schema_id": "INT-L06-002",
+      "mode": "intrecci",
+      "columns": 8,
+      "rows": 10,
+      "anchors": [
+        {
+          "id": 1,
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": 2,
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": 3,
+          "x": 3,
+          "y": 1
+        },
+        {
+          "id": 4,
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": 5,
+          "x": 5,
+          "y": 1
+        },
+        {
+          "id": 6,
+          "x": 6,
+          "y": 1
+        },
+        {
+          "id": 7,
+          "x": 7,
+          "y": 1
+        },
+        {
+          "id": 8,
+          "x": 8,
+          "y": 1
+        },
+        {
+          "id": 9,
+          "x": 8,
+          "y": 2
+        },
+        {
+          "id": 10,
+          "x": 8,
+          "y": 3
+        },
+        {
+          "id": 11,
+          "x": 8,
+          "y": 4
+        },
+        {
+          "id": 12,
+          "x": 8,
+          "y": 5
+        },
+        {
+          "id": 13,
+          "x": 8,
+          "y": 6
+        },
+        {
+          "id": 14,
+          "x": 8,
+          "y": 7
+        },
+        {
+          "id": 15,
+          "x": 8,
+          "y": 8
+        },
+        {
+          "id": 16,
+          "x": 8,
+          "y": 9
+        },
+        {
+          "id": 17,
+          "x": 8,
+          "y": 10
+        },
+        {
+          "id": 18,
+          "x": 7,
+          "y": 10
+        },
+        {
+          "id": 19,
+          "x": 6,
+          "y": 10
+        },
+        {
+          "id": 20,
+          "x": 5,
+          "y": 10
+        },
+        {
+          "id": 21,
+          "x": 4,
+          "y": 10
+        },
+        {
+          "id": 22,
+          "x": 3,
+          "y": 10
+        },
+        {
+          "id": 23,
+          "x": 2,
+          "y": 10
+        },
+        {
+          "id": 24,
+          "x": 1,
+          "y": 10
+        },
+        {
+          "id": 25,
+          "x": 1,
+          "y": 9
+        },
+        {
+          "id": 26,
+          "x": 1,
+          "y": 8
+        },
+        {
+          "id": 27,
+          "x": 1,
+          "y": 7
+        },
+        {
+          "id": 28,
+          "x": 1,
+          "y": 6
+        },
+        {
+          "id": 29,
+          "x": 1,
+          "y": 5
+        },
+        {
+          "id": 30,
+          "x": 1,
+          "y": 4
+        },
+        {
+          "id": 31,
+          "x": 1,
+          "y": 3
+        },
+        {
+          "id": 32,
+          "x": 1,
+          "y": 2
+        }
+      ],
+      "ropes": [
+        {
+          "id": 1,
+          "endpoints": [
+            22,
+            19
+          ],
+          "color": "giallo",
+          "color_hex": "#FFD326"
+        },
+        {
+          "id": 2,
+          "endpoints": [
+            16,
+            7
+          ],
+          "color": "rosa",
+          "color_hex": "#F43C9B"
+        },
+        {
+          "id": 3,
+          "endpoints": [
+            6,
+            12
+          ],
+          "color": "celeste",
+          "color_hex": "#23C8F4"
+        },
+        {
+          "id": 4,
+          "endpoints": [
+            5,
+            2
+          ],
+          "color": "viola",
+          "color_hex": "#A15AF4"
+        },
+        {
+          "id": 5,
+          "endpoints": [
+            18,
+            29
+          ],
+          "color": "verde_lime",
+          "color_hex": "#79D51C"
+        },
+        {
+          "id": 6,
+          "endpoints": [
+            30,
+            11
+          ],
+          "color": "arancione",
+          "color_hex": "#FF941A"
+        },
+        {
+          "id": 7,
+          "endpoints": [
+            15,
+            32
+          ],
+          "color": "rosso",
+          "color_hex": "#F3484D"
+        },
+        {
+          "id": 8,
+          "endpoints": [
+            31,
+            23
+          ],
+          "color": "blu",
+          "color_hex": "#3265DC"
+        },
+        {
+          "id": 9,
+          "endpoints": [
+            3,
+            17
+          ],
+          "color": "turchese",
+          "color_hex": "#13B89A"
+        },
+        {
+          "id": 10,
+          "endpoints": [
+            14,
+            24
+          ],
+          "color": "bianco_perla",
+          "color_hex": "#F3F4EF"
+        },
+        {
+          "id": 11,
+          "endpoints": [
+            10,
+            13
+          ],
+          "color": "magenta",
+          "color_hex": "#B61C73"
+        },
+        {
+          "id": 12,
+          "endpoints": [
+            8,
+            26
+          ],
+          "color": "ocra",
+          "color_hex": "#B58B28"
+        },
+        {
+          "id": 13,
+          "endpoints": [
+            21,
+            9
+          ],
+          "color": "verde_scuro",
+          "color_hex": "#176F39"
+        },
+        {
+          "id": 14,
+          "endpoints": [
+            4,
+            20
+          ],
+          "color": "lavanda",
+          "color_hex": "#C5A9F2"
+        }
+      ],
+      "solution": [
+        {
+          "rope_id": 12,
+          "from": 8,
+          "to": 25,
+          "removed_rope_ids": [
+            12
+          ],
+          "remaining_ropes": 13
+        },
+        {
+          "rope_id": 13,
+          "from": 21,
+          "to": 8,
+          "removed_rope_ids": [
+            13
+          ],
+          "remaining_ropes": 12
+        },
+        {
+          "rope_id": 14,
+          "from": 4,
+          "to": 21,
+          "removed_rope_ids": [
+            1,
+            14
+          ],
+          "remaining_ropes": 10
+        },
+        {
+          "rope_id": 9,
+          "from": 17,
+          "to": 4,
+          "removed_rope_ids": [
+            4,
+            9
+          ],
+          "remaining_ropes": 8
+        },
+        {
+          "rope_id": 10,
+          "from": 14,
+          "to": 27,
+          "removed_rope_ids": [
+            10
+          ],
+          "remaining_ropes": 7
+        },
+        {
+          "rope_id": 8,
+          "from": 31,
+          "to": 25,
+          "removed_rope_ids": [
+            5,
+            8
+          ],
+          "remaining_ropes": 5
+        },
+        {
+          "rope_id": 6,
+          "from": 11,
+          "to": 19,
+          "removed_rope_ids": [
+            6
+          ],
+          "remaining_ropes": 4
+        },
+        {
+          "rope_id": 2,
+          "from": 7,
+          "to": 25,
+          "removed_rope_ids": [
+            2,
+            7
+          ],
+          "remaining_ropes": 2
+        },
+        {
+          "rope_id": 3,
+          "from": 12,
+          "to": 3,
+          "removed_rope_ids": [
+            3,
+            11
+          ],
+          "remaining_ropes": 0
+        }
+      ],
+      "verification": {
+        "initial_crossing_pairs": 41,
+        "initial_crossed_ropes": 14,
+        "solution_moves": 9,
+        "solvable_in_cyclic_model": true,
+        "optimality_certified": false,
+        "solvable_in_proposed_layer_model": true,
+        "solution_uses_only_unobstructed_ropes": true,
+        "remaining_ropes": 0,
+        "engine_certified": false
+      },
+      "initial_free_anchors": [
+        1,
+        25,
+        27,
+        28
+      ],
+      "difficulty_estimate": "alta",
+      "layer_order": [
+        11,
+        3,
+        7,
+        2,
+        6,
+        5,
+        8,
+        10,
+        4,
+        9,
+        1,
+        14,
+        13,
+        12
+      ]
+    },
+    {
+      "level": 6,
+      "schema_id": "INT-L06-003",
+      "mode": "intrecci",
+      "columns": 8,
+      "rows": 10,
+      "anchors": [
+        {
+          "id": 1,
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": 2,
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": 3,
+          "x": 3,
+          "y": 1
+        },
+        {
+          "id": 4,
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": 5,
+          "x": 5,
+          "y": 1
+        },
+        {
+          "id": 6,
+          "x": 6,
+          "y": 1
+        },
+        {
+          "id": 7,
+          "x": 7,
+          "y": 1
+        },
+        {
+          "id": 8,
+          "x": 8,
+          "y": 1
+        },
+        {
+          "id": 9,
+          "x": 8,
+          "y": 2
+        },
+        {
+          "id": 10,
+          "x": 8,
+          "y": 3
+        },
+        {
+          "id": 11,
+          "x": 8,
+          "y": 4
+        },
+        {
+          "id": 12,
+          "x": 8,
+          "y": 5
+        },
+        {
+          "id": 13,
+          "x": 8,
+          "y": 6
+        },
+        {
+          "id": 14,
+          "x": 8,
+          "y": 7
+        },
+        {
+          "id": 15,
+          "x": 8,
+          "y": 8
+        },
+        {
+          "id": 16,
+          "x": 8,
+          "y": 9
+        },
+        {
+          "id": 17,
+          "x": 8,
+          "y": 10
+        },
+        {
+          "id": 18,
+          "x": 7,
+          "y": 10
+        },
+        {
+          "id": 19,
+          "x": 6,
+          "y": 10
+        },
+        {
+          "id": 20,
+          "x": 5,
+          "y": 10
+        },
+        {
+          "id": 21,
+          "x": 4,
+          "y": 10
+        },
+        {
+          "id": 22,
+          "x": 3,
+          "y": 10
+        },
+        {
+          "id": 23,
+          "x": 2,
+          "y": 10
+        },
+        {
+          "id": 24,
+          "x": 1,
+          "y": 10
+        },
+        {
+          "id": 25,
+          "x": 1,
+          "y": 9
+        },
+        {
+          "id": 26,
+          "x": 1,
+          "y": 8
+        },
+        {
+          "id": 27,
+          "x": 1,
+          "y": 7
+        },
+        {
+          "id": 28,
+          "x": 1,
+          "y": 6
+        },
+        {
+          "id": 29,
+          "x": 1,
+          "y": 5
+        },
+        {
+          "id": 30,
+          "x": 1,
+          "y": 4
+        },
+        {
+          "id": 31,
+          "x": 1,
+          "y": 3
+        },
+        {
+          "id": 32,
+          "x": 1,
+          "y": 2
+        }
+      ],
+      "ropes": [
+        {
+          "id": 1,
+          "endpoints": [
+            13,
+            25
+          ],
+          "color": "giallo",
+          "color_hex": "#FFD326"
+        },
+        {
+          "id": 2,
+          "endpoints": [
+            2,
+            10
+          ],
+          "color": "rosa",
+          "color_hex": "#F43C9B"
+        },
+        {
+          "id": 3,
+          "endpoints": [
+            5,
+            22
+          ],
+          "color": "celeste",
+          "color_hex": "#23C8F4"
+        },
+        {
+          "id": 4,
+          "endpoints": [
+            11,
+            32
+          ],
+          "color": "viola",
+          "color_hex": "#A15AF4"
+        },
+        {
+          "id": 5,
+          "endpoints": [
+            31,
+            29
+          ],
+          "color": "verde_lime",
+          "color_hex": "#79D51C"
+        },
+        {
+          "id": 6,
+          "endpoints": [
+            15,
+            17
+          ],
+          "color": "arancione",
+          "color_hex": "#FF941A"
+        },
+        {
+          "id": 7,
+          "endpoints": [
+            12,
+            23
+          ],
+          "color": "rosso",
+          "color_hex": "#F3484D"
+        },
+        {
+          "id": 8,
+          "endpoints": [
+            14,
+            24
+          ],
+          "color": "blu",
+          "color_hex": "#3265DC"
+        },
+        {
+          "id": 9,
+          "endpoints": [
+            6,
+            21
+          ],
+          "color": "turchese",
+          "color_hex": "#13B89A"
+        },
+        {
+          "id": 10,
+          "endpoints": [
+            4,
+            19
+          ],
+          "color": "bianco_perla",
+          "color_hex": "#F3F4EF"
+        },
+        {
+          "id": 11,
+          "endpoints": [
+            28,
+            8
+          ],
+          "color": "magenta",
+          "color_hex": "#B61C73"
+        },
+        {
+          "id": 12,
+          "endpoints": [
+            30,
+            7
+          ],
+          "color": "ocra",
+          "color_hex": "#B58B28"
+        },
+        {
+          "id": 13,
+          "endpoints": [
+            3,
+            16
+          ],
+          "color": "verde_scuro",
+          "color_hex": "#176F39"
+        },
+        {
+          "id": 14,
+          "endpoints": [
+            1,
+            26
+          ],
+          "color": "lavanda",
+          "color_hex": "#C5A9F2"
+        }
+      ],
+      "solution": [
+        {
+          "rope_id": 10,
+          "from": 4,
+          "to": 20,
+          "removed_rope_ids": [
+            10
+          ],
+          "remaining_ropes": 13
+        },
+        {
+          "rope_id": 13,
+          "from": 16,
+          "to": 4,
+          "removed_rope_ids": [
+            6,
+            13
+          ],
+          "remaining_ropes": 11
+        },
+        {
+          "rope_id": 9,
+          "from": 6,
+          "to": 16,
+          "removed_rope_ids": [
+            9
+          ],
+          "remaining_ropes": 10
+        },
+        {
+          "rope_id": 12,
+          "from": 30,
+          "to": 6,
+          "removed_rope_ids": [
+            5,
+            12
+          ],
+          "remaining_ropes": 8
+        },
+        {
+          "rope_id": 3,
+          "from": 5,
+          "to": 21,
+          "removed_rope_ids": [
+            3
+          ],
+          "remaining_ropes": 7
+        },
+        {
+          "rope_id": 7,
+          "from": 12,
+          "to": 15,
+          "removed_rope_ids": [
+            1,
+            7,
+            8
+          ],
+          "remaining_ropes": 4
+        },
+        {
+          "rope_id": 11,
+          "from": 28,
+          "to": 7,
+          "removed_rope_ids": [
+            2,
+            11
+          ],
+          "remaining_ropes": 2
+        },
+        {
+          "rope_id": 14,
+          "from": 1,
+          "to": 31,
+          "removed_rope_ids": [
+            4,
+            14
+          ],
+          "remaining_ropes": 0
+        }
+      ],
+      "verification": {
+        "initial_crossing_pairs": 44,
+        "initial_crossed_ropes": 14,
+        "solution_moves": 8,
+        "solvable_in_cyclic_model": true,
+        "optimality_certified": false,
+        "solvable_in_proposed_layer_model": true,
+        "solution_uses_only_unobstructed_ropes": true,
+        "remaining_ropes": 0,
+        "engine_certified": false
+      },
+      "initial_free_anchors": [
+        9,
+        18,
+        20,
+        27
+      ],
+      "difficulty_estimate": "alta",
+      "layer_order": [
+        4,
+        14,
+        2,
+        11,
+        8,
+        1,
+        7,
+        3,
+        5,
+        12,
+        9,
+        6,
+        13,
+        10
+      ]
+    },
+    {
+      "level": 6,
+      "schema_id": "INT-L06-004",
+      "mode": "intrecci",
+      "columns": 8,
+      "rows": 10,
+      "anchors": [
+        {
+          "id": 1,
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": 2,
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": 3,
+          "x": 3,
+          "y": 1
+        },
+        {
+          "id": 4,
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": 5,
+          "x": 5,
+          "y": 1
+        },
+        {
+          "id": 6,
+          "x": 6,
+          "y": 1
+        },
+        {
+          "id": 7,
+          "x": 7,
+          "y": 1
+        },
+        {
+          "id": 8,
+          "x": 8,
+          "y": 1
+        },
+        {
+          "id": 9,
+          "x": 8,
+          "y": 2
+        },
+        {
+          "id": 10,
+          "x": 8,
+          "y": 3
+        },
+        {
+          "id": 11,
+          "x": 8,
+          "y": 4
+        },
+        {
+          "id": 12,
+          "x": 8,
+          "y": 5
+        },
+        {
+          "id": 13,
+          "x": 8,
+          "y": 6
+        },
+        {
+          "id": 14,
+          "x": 8,
+          "y": 7
+        },
+        {
+          "id": 15,
+          "x": 8,
+          "y": 8
+        },
+        {
+          "id": 16,
+          "x": 8,
+          "y": 9
+        },
+        {
+          "id": 17,
+          "x": 8,
+          "y": 10
+        },
+        {
+          "id": 18,
+          "x": 7,
+          "y": 10
+        },
+        {
+          "id": 19,
+          "x": 6,
+          "y": 10
+        },
+        {
+          "id": 20,
+          "x": 5,
+          "y": 10
+        },
+        {
+          "id": 21,
+          "x": 4,
+          "y": 10
+        },
+        {
+          "id": 22,
+          "x": 3,
+          "y": 10
+        },
+        {
+          "id": 23,
+          "x": 2,
+          "y": 10
+        },
+        {
+          "id": 24,
+          "x": 1,
+          "y": 10
+        },
+        {
+          "id": 25,
+          "x": 1,
+          "y": 9
+        },
+        {
+          "id": 26,
+          "x": 1,
+          "y": 8
+        },
+        {
+          "id": 27,
+          "x": 1,
+          "y": 7
+        },
+        {
+          "id": 28,
+          "x": 1,
+          "y": 6
+        },
+        {
+          "id": 29,
+          "x": 1,
+          "y": 5
+        },
+        {
+          "id": 30,
+          "x": 1,
+          "y": 4
+        },
+        {
+          "id": 31,
+          "x": 1,
+          "y": 3
+        },
+        {
+          "id": 32,
+          "x": 1,
+          "y": 2
+        }
+      ],
+      "ropes": [
+        {
+          "id": 1,
+          "endpoints": [
+            12,
+            4
+          ],
+          "color": "giallo",
+          "color_hex": "#FFD326"
+        },
+        {
+          "id": 2,
+          "endpoints": [
+            15,
+            10
+          ],
+          "color": "rosa",
+          "color_hex": "#F43C9B"
+        },
+        {
+          "id": 3,
+          "endpoints": [
+            1,
+            14
+          ],
+          "color": "celeste",
+          "color_hex": "#23C8F4"
+        },
+        {
+          "id": 4,
+          "endpoints": [
+            8,
+            32
+          ],
+          "color": "viola",
+          "color_hex": "#A15AF4"
+        },
+        {
+          "id": 5,
+          "endpoints": [
+            19,
+            23
+          ],
+          "color": "verde_lime",
+          "color_hex": "#79D51C"
+        },
+        {
+          "id": 6,
+          "endpoints": [
+            28,
+            7
+          ],
+          "color": "arancione",
+          "color_hex": "#FF941A"
+        },
+        {
+          "id": 7,
+          "endpoints": [
+            16,
+            25
+          ],
+          "color": "rosso",
+          "color_hex": "#F3484D"
+        },
+        {
+          "id": 8,
+          "endpoints": [
+            18,
+            5
+          ],
+          "color": "blu",
+          "color_hex": "#3265DC"
+        },
+        {
+          "id": 9,
+          "endpoints": [
+            11,
+            21
+          ],
+          "color": "turchese",
+          "color_hex": "#13B89A"
+        },
+        {
+          "id": 10,
+          "endpoints": [
+            20,
+            9
+          ],
+          "color": "bianco_perla",
+          "color_hex": "#F3F4EF"
+        },
+        {
+          "id": 11,
+          "endpoints": [
+            27,
+            31
+          ],
+          "color": "magenta",
+          "color_hex": "#B61C73"
+        },
+        {
+          "id": 12,
+          "endpoints": [
+            17,
+            3
+          ],
+          "color": "ocra",
+          "color_hex": "#B58B28"
+        },
+        {
+          "id": 13,
+          "endpoints": [
+            13,
+            22
+          ],
+          "color": "verde_scuro",
+          "color_hex": "#176F39"
+        },
+        {
+          "id": 14,
+          "endpoints": [
+            29,
+            26
+          ],
+          "color": "lavanda",
+          "color_hex": "#C5A9F2"
+        }
+      ],
+      "solution": [
+        {
+          "rope_id": 8,
+          "from": 18,
+          "to": 6,
+          "removed_rope_ids": [
+            8
+          ],
+          "remaining_ropes": 13
+        },
+        {
+          "rope_id": 12,
+          "from": 17,
+          "to": 2,
+          "removed_rope_ids": [
+            12
+          ],
+          "remaining_ropes": 12
+        },
+        {
+          "rope_id": 3,
+          "from": 14,
+          "to": 2,
+          "removed_rope_ids": [
+            3
+          ],
+          "remaining_ropes": 11
+        },
+        {
+          "rope_id": 1,
+          "from": 12,
+          "to": 3,
+          "removed_rope_ids": [
+            1
+          ],
+          "remaining_ropes": 10
+        },
+        {
+          "rope_id": 6,
+          "from": 28,
+          "to": 5,
+          "removed_rope_ids": [
+            4,
+            6
+          ],
+          "remaining_ropes": 8
+        },
+        {
+          "rope_id": 11,
+          "from": 27,
+          "to": 6,
+          "removed_rope_ids": [
+            11,
+            14
+          ],
+          "remaining_ropes": 6
+        },
+        {
+          "rope_id": 13,
+          "from": 22,
+          "to": 12,
+          "removed_rope_ids": [
+            13
+          ],
+          "remaining_ropes": 5
+        },
+        {
+          "rope_id": 9,
+          "from": 21,
+          "to": 14,
+          "removed_rope_ids": [
+            2,
+            9
+          ],
+          "remaining_ropes": 3
+        },
+        {
+          "rope_id": 10,
+          "from": 20,
+          "to": 5,
+          "removed_rope_ids": [
+            5,
+            7,
+            10
+          ],
+          "remaining_ropes": 0
+        }
+      ],
+      "verification": {
+        "initial_crossing_pairs": 42,
+        "initial_crossed_ropes": 14,
+        "solution_moves": 9,
+        "solvable_in_cyclic_model": true,
+        "optimality_certified": false,
+        "solvable_in_proposed_layer_model": true,
+        "solution_uses_only_unobstructed_ropes": true,
+        "remaining_ropes": 0,
+        "engine_certified": false
+      },
+      "initial_free_anchors": [
+        2,
+        6,
+        24,
+        30
+      ],
+      "difficulty_estimate": "alta",
+      "layer_order": [
+        7,
+        5,
+        10,
+        2,
+        9,
+        13,
+        14,
+        11,
+        4,
+        6,
+        1,
+        3,
+        12,
+        8
+      ]
+    },
+    {
+      "level": 6,
+      "schema_id": "INT-L06-005",
+      "mode": "intrecci",
+      "columns": 8,
+      "rows": 10,
+      "anchors": [
+        {
+          "id": 1,
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": 2,
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": 3,
+          "x": 3,
+          "y": 1
+        },
+        {
+          "id": 4,
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": 5,
+          "x": 5,
+          "y": 1
+        },
+        {
+          "id": 6,
+          "x": 6,
+          "y": 1
+        },
+        {
+          "id": 7,
+          "x": 7,
+          "y": 1
+        },
+        {
+          "id": 8,
+          "x": 8,
+          "y": 1
+        },
+        {
+          "id": 9,
+          "x": 8,
+          "y": 2
+        },
+        {
+          "id": 10,
+          "x": 8,
+          "y": 3
+        },
+        {
+          "id": 11,
+          "x": 8,
+          "y": 4
+        },
+        {
+          "id": 12,
+          "x": 8,
+          "y": 5
+        },
+        {
+          "id": 13,
+          "x": 8,
+          "y": 6
+        },
+        {
+          "id": 14,
+          "x": 8,
+          "y": 7
+        },
+        {
+          "id": 15,
+          "x": 8,
+          "y": 8
+        },
+        {
+          "id": 16,
+          "x": 8,
+          "y": 9
+        },
+        {
+          "id": 17,
+          "x": 8,
+          "y": 10
+        },
+        {
+          "id": 18,
+          "x": 7,
+          "y": 10
+        },
+        {
+          "id": 19,
+          "x": 6,
+          "y": 10
+        },
+        {
+          "id": 20,
+          "x": 5,
+          "y": 10
+        },
+        {
+          "id": 21,
+          "x": 4,
+          "y": 10
+        },
+        {
+          "id": 22,
+          "x": 3,
+          "y": 10
+        },
+        {
+          "id": 23,
+          "x": 2,
+          "y": 10
+        },
+        {
+          "id": 24,
+          "x": 1,
+          "y": 10
+        },
+        {
+          "id": 25,
+          "x": 1,
+          "y": 9
+        },
+        {
+          "id": 26,
+          "x": 1,
+          "y": 8
+        },
+        {
+          "id": 27,
+          "x": 1,
+          "y": 7
+        },
+        {
+          "id": 28,
+          "x": 1,
+          "y": 6
+        },
+        {
+          "id": 29,
+          "x": 1,
+          "y": 5
+        },
+        {
+          "id": 30,
+          "x": 1,
+          "y": 4
+        },
+        {
+          "id": 31,
+          "x": 1,
+          "y": 3
+        },
+        {
+          "id": 32,
+          "x": 1,
+          "y": 2
+        }
+      ],
+      "ropes": [
+        {
+          "id": 1,
+          "endpoints": [
+            29,
+            2
+          ],
+          "color": "giallo",
+          "color_hex": "#FFD326"
+        },
+        {
+          "id": 2,
+          "endpoints": [
+            16,
+            31
+          ],
+          "color": "rosa",
+          "color_hex": "#F43C9B"
+        },
+        {
+          "id": 3,
+          "endpoints": [
+            5,
+            24
+          ],
+          "color": "celeste",
+          "color_hex": "#23C8F4"
+        },
+        {
+          "id": 4,
+          "endpoints": [
+            32,
+            19
+          ],
+          "color": "viola",
+          "color_hex": "#A15AF4"
+        },
+        {
+          "id": 5,
+          "endpoints": [
+            4,
+            6
+          ],
+          "color": "verde_lime",
+          "color_hex": "#79D51C"
+        },
+        {
+          "id": 6,
+          "endpoints": [
+            17,
+            9
+          ],
+          "color": "arancione",
+          "color_hex": "#FF941A"
+        },
+        {
+          "id": 7,
+          "endpoints": [
+            12,
+            25
+          ],
+          "color": "rosso",
+          "color_hex": "#F3484D"
+        },
+        {
+          "id": 8,
+          "endpoints": [
+            28,
+            23
+          ],
+          "color": "blu",
+          "color_hex": "#3265DC"
+        },
+        {
+          "id": 9,
+          "endpoints": [
+            20,
+            1
+          ],
+          "color": "turchese",
+          "color_hex": "#13B89A"
+        },
+        {
+          "id": 10,
+          "endpoints": [
+            8,
+            14
+          ],
+          "color": "bianco_perla",
+          "color_hex": "#F3F4EF"
+        },
+        {
+          "id": 11,
+          "endpoints": [
+            13,
+            10
+          ],
+          "color": "magenta",
+          "color_hex": "#B61C73"
+        },
+        {
+          "id": 12,
+          "endpoints": [
+            22,
+            26
+          ],
+          "color": "ocra",
+          "color_hex": "#B58B28"
+        },
+        {
+          "id": 13,
+          "endpoints": [
+            30,
+            11
+          ],
+          "color": "verde_scuro",
+          "color_hex": "#176F39"
+        },
+        {
+          "id": 14,
+          "endpoints": [
+            27,
+            3
+          ],
+          "color": "lavanda",
+          "color_hex": "#C5A9F2"
+        }
+      ],
+      "solution": [
+        {
+          "rope_id": 2,
+          "from": 31,
+          "to": 15,
+          "removed_rope_ids": [
+            2
+          ],
+          "remaining_ropes": 13
+        },
+        {
+          "rope_id": 13,
+          "from": 11,
+          "to": 31,
+          "removed_rope_ids": [
+            13
+          ],
+          "remaining_ropes": 12
+        },
+        {
+          "rope_id": 7,
+          "from": 25,
+          "to": 11,
+          "removed_rope_ids": [
+            7,
+            11
+          ],
+          "remaining_ropes": 10
+        },
+        {
+          "rope_id": 3,
+          "from": 5,
+          "to": 25,
+          "removed_rope_ids": [
+            3,
+            5
+          ],
+          "remaining_ropes": 8
+        },
+        {
+          "rope_id": 8,
+          "from": 28,
+          "to": 25,
+          "removed_rope_ids": [
+            8,
+            12
+          ],
+          "remaining_ropes": 6
+        },
+        {
+          "rope_id": 10,
+          "from": 8,
+          "to": 10,
+          "removed_rope_ids": [
+            6,
+            10
+          ],
+          "remaining_ropes": 4
+        },
+        {
+          "rope_id": 4,
+          "from": 32,
+          "to": 18,
+          "removed_rope_ids": [
+            4
+          ],
+          "remaining_ropes": 3
+        },
+        {
+          "rope_id": 9,
+          "from": 1,
+          "to": 12,
+          "removed_rope_ids": [
+            1,
+            9,
+            14
+          ],
+          "remaining_ropes": 0
+        }
+      ],
+      "verification": {
+        "initial_crossing_pairs": 37,
+        "initial_crossed_ropes": 14,
+        "solution_moves": 8,
+        "solvable_in_cyclic_model": true,
+        "optimality_certified": false,
+        "solvable_in_proposed_layer_model": true,
+        "solution_uses_only_unobstructed_ropes": true,
+        "remaining_ropes": 0,
+        "engine_certified": false
+      },
+      "initial_free_anchors": [
+        7,
+        15,
+        18,
+        21
+      ],
+      "difficulty_estimate": "alta",
+      "layer_order": [
+        14,
+        1,
+        9,
+        4,
+        6,
+        10,
+        12,
+        8,
+        5,
+        3,
+        11,
+        7,
+        13,
+        2
+      ]
+    }
+  ],
+  "version": "1.01",
+  "palette": [
+    {
+      "id": "giallo",
+      "hex": "#FFD326"
+    },
+    {
+      "id": "rosa",
+      "hex": "#F43C9B"
+    },
+    {
+      "id": "celeste",
+      "hex": "#23C8F4"
+    },
+    {
+      "id": "viola",
+      "hex": "#A15AF4"
+    },
+    {
+      "id": "verde_lime",
+      "hex": "#79D51C"
+    },
+    {
+      "id": "arancione",
+      "hex": "#FF941A"
+    },
+    {
+      "id": "rosso",
+      "hex": "#F3484D"
+    },
+    {
+      "id": "blu",
+      "hex": "#3265DC"
+    },
+    {
+      "id": "turchese",
+      "hex": "#13B89A"
+    },
+    {
+      "id": "bianco_perla",
+      "hex": "#F3F4EF"
+    },
+    {
+      "id": "magenta",
+      "hex": "#B61C73"
+    },
+    {
+      "id": "ocra",
+      "hex": "#B58B28"
+    },
+    {
+      "id": "verde_scuro",
+      "hex": "#176F39"
+    },
+    {
+      "id": "lavanda",
+      "hex": "#C5A9F2"
+    }
+  ],
+  "rules": {
+    "free_anchors_only": true,
+    "remove_uncrossed_after_move": true,
+    "coordinate_base": 1,
+    "anchor_order": "clockwise",
+    "crossing_model_pending_engine_confirmation": true,
+    "layer_order": "bottom_to_top",
+    "blocked_endpoint_rule": "same_side_only_pending_corner_convention",
+    "corner_policy": "pending_engine_agreement",
+    "layer_order_fixed_during_moves": true
+  }
+}

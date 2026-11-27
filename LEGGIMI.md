@@ -38,3 +38,7 @@ Copiare tutto nella root del repository, senza cancellare `.git`. Commit e Push 
 
 ## v0.04.8
 Nuovi 15 schemi ufficiali, progressione immediata 1–3, ripristino locale e selezione senza ripetizioni. Dopo il terzo livello, congratulazioni e Home. Per aggiornare, chiudere tutte le schede della vecchia versione e riaprire online; verificare poi in modalità aereo. Motore, renderer, CSS e risorse grafiche invariati. Intrecci rimane in pausa.
+
+
+## v0.04.9
+Livelli 1–3 Incastri, 4–6 Intrecci; 5 schemi per livello. Sessione condivisa, progressione automatica, cache offline aggiornata. Chiudere tutte le schede della vecchia versione per attivare il nuovo service worker.
