@@ -1,0 +1,2130 @@
+{
+  "project": "6 Blocks",
+  "version": "Level Design v0.04 - 8x10",
+  "status": "proposta tecnica verificata indipendentemente; approvazione e compatibilità motore da confermare",
+  "coordinate_system": "1-based: row dall’alto, col da sinistra; start uscita da sinistra (alto/basso) o dall’alto (sinistra/destra)",
+  "rules": {
+    "rotation": false,
+    "exit_match": "colore e larghezza esatta del fronte nella direzione di uscita",
+    "movement": "traslazione ortogonale senza sovrapposizioni; attraversamento del bordo esclusivamente dalla propria apertura fino a completa uscita",
+    "solution_steps": "passi di una cella, non equivalenti necessariamente alle mosse del motore"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "columns": 8,
+      "rows": 10,
+      "difficulty_estimate": 1,
+      "description": "Adattamento 8×10: Uscite opposte e corrispondenza di colore.",
+      "blocks": [
+        {
+          "id": "A",
+          "color": "blu",
+          "hex": "#2866b8",
+          "col": 3,
+          "row": 4,
+          "width": 1,
+          "height": 1,
+          "exit_id": "A"
+        },
+        {
+          "id": "B",
+          "color": "ambra",
+          "hex": "#b87916",
+          "col": 6,
+          "row": 6,
+          "width": 1,
+          "height": 2,
+          "exit_id": "B"
+        }
+      ],
+      "exits": [
+        {
+          "id": "A",
+          "color": "blu",
+          "hex": "#2866b8",
+          "side": "alto",
+          "start": 3,
+          "width": 1
+        },
+        {
+          "id": "B",
+          "color": "ambra",
+          "hex": "#b87916",
+          "side": "basso",
+          "start": 6,
+          "width": 1
+        }
+      ],
+      "solution": [
+        {
+          "block": "A",
+          "direction": "alto",
+          "steps": 4
+        },
+        {
+          "block": "B",
+          "direction": "basso",
+          "steps": 5
+        }
+      ],
+      "verification": {
+        "solved": true,
+        "unit_steps": 9,
+        "initial_reachable_exits": 2,
+        "remaining_if_only_removing": 0,
+        "minimum_moves": null
+      }
+    },
+    {
+      "level": 2,
+      "columns": 8,
+      "rows": 10,
+      "difficulty_estimate": 2,
+      "description": "Adattamento 8×10: Un blocco occupa la porta di un altro.",
+      "blocks": [
+        {
+          "id": "A",
+          "color": "blu",
+          "hex": "#2866b8",
+          "col": 5,
+          "row": 3,
+          "width": 1,
+          "height": 2,
+          "exit_id": "A"
+        },
+        {
+          "id": "B",
+          "color": "ambra",
+          "hex": "#b87916",
+          "col": 5,
+          "row": 1,
+          "width": 2,
+          "height": 1,
+          "exit_id": "B"
+        },
+        {
+          "id": "C",
+          "color": "verde",
+          "hex": "#267c59",
+          "col": 7,
+          "row": 6,
+          "width": 1,
+          "height": 1,
+          "exit_id": "C"
+        }
+      ],
+      "exits": [
+        {
+          "id": "A",
+          "color": "blu",
+          "hex": "#2866b8",
+          "side": "alto",
+          "start": 5,
+          "width": 1
+        },
+        {
+          "id": "B",
+          "color": "ambra",
+          "hex": "#b87916",
+          "side": "sinistra",
+          "start": 1,
+          "width": 1
+        },
+        {
+          "id": "C",
+          "color": "verde",
+          "hex": "#267c59",
+          "side": "destra",
+          "start": 6,
+          "width": 1
+        }
+      ],
+      "solution": [
+        {
+          "block": "C",
+          "direction": "destra",
+          "steps": 2
+        },
+        {
+          "block": "B",
+          "direction": "sinistra",
+          "steps": 6
+        },
+        {
+          "block": "A",
+          "direction": "alto",
+          "steps": 4
+        }
+      ],
+      "verification": {
+        "solved": true,
+        "unit_steps": 12,
+        "initial_reachable_exits": 2,
+        "remaining_if_only_removing": 0,
+        "minimum_moves": null
+      }
+    },
+    {
+      "level": 3,
+      "columns": 8,
+      "rows": 10,
+      "difficulty_estimate": 2,
+      "description": "Schema 8×10; percorsi e precedenze da calibrare nel motore.",
+      "blocks": [
+        {
+          "id": "A",
+          "color": "blu",
+          "hex": "#2866b8",
+          "col": 3,
+          "row": 5,
+          "width": 2,
+          "height": 2,
+          "exit_id": "A"
+        },
+        {
+          "id": "B",
+          "color": "ambra",
+          "hex": "#b87916",
+          "col": 3,
+          "row": 3,
+          "width": 2,
+          "height": 1,
+          "exit_id": "B"
+        },
+        {
+          "id": "C",
+          "color": "verde",
+          "hex": "#267c59",
+          "col": 1,
+          "row": 6,
+          "width": 1,
+          "height": 2,
+          "exit_id": "C"
+        },
+        {
+          "id": "D",
+          "color": "viola",
+          "hex": "#7955ac",
+          "col": 5,
+          "row": 8,
+          "width": 1,
+          "height": 1,
+          "exit_id": "D"
+        }
+      ],
+      "exits": [
+        {
+          "id": "A",
+          "color": "blu",
+          "hex": "#2866b8",
+          "side": "alto",
+          "start": 3,
+          "width": 2
+        },
+        {
+          "id": "B",
+          "color": "ambra",
+          "hex": "#b87916",
+          "side": "destra",
+          "start": 3,
+          "width": 1
+        },
+        {
+          "id": "C",
+          "color": "verde",
+          "hex": "#267c59",
+          "side": "sinistra",
+          "start": 6,
+          "width": 2
+        },
+        {
+          "id": "D",
+          "color": "viola",
+          "hex": "#7955ac",
+          "side": "basso",
+          "start": 5,
+          "width": 1
+        }
+      ],
+      "solution": [
+        {
+          "block": "C",
+          "direction": "sinistra",
+          "steps": 1
+        },
+        {
+          "block": "B",
+          "direction": "destra",
+          "steps": 6
+        },
+        {
+          "block": "A",
+          "direction": "alto",
+          "steps": 6
+        },
+        {
+          "block": "D",
+          "direction": "basso",
+          "steps": 3
+        }
+      ],
+      "verification": {
+        "solved": true,
+        "unit_steps": 16,
+        "initial_reachable_exits": 4,
+        "remaining_if_only_removing": 0,
+        "minimum_moves": null
+      }
+    },
+    {
+      "level": 4,
+      "columns": 8,
+      "rows": 10,
+      "difficulty_estimate": 3,
+      "description": "Schema 8×10; percorsi e precedenze da calibrare nel motore.",
+      "blocks": [
+        {
+          "id": "A",
+          "color": "blu",
+          "hex": "#2866b8",
+          "col": 3,
+          "row": 7,
+          "width": 2,
+          "height": 1,
+          "exit_id": "A"
+        },
+        {
+          "id": "B",
+          "color": "ambra",
+          "hex": "#b87916",
+          "col": 3,
+          "row": 4,
+          "width": 3,
+          "height": 1,
+          "exit_id": "B"
+        },
+        {
+          "id": "C",
+          "color": "verde",
+          "hex": "#267c59",
+          "col": 6,
+          "row": 6,
+          "width": 2,
+          "height": 2,
+          "exit_id": "C"
+        },
+        {
+          "id": "D",
+          "color": "viola",
+          "hex": "#7955ac",
+          "col": 7,
+          "row": 1,
+          "width": 1,
+          "height": 3,
+          "exit_id": "D"
+        },
+        {
+          "id": "E",
+          "color": "rosso",
+          "hex": "#bc494b",
+          "col": 3,
+          "row": 1,
+          "width": 1,
+          "height": 3,
+          "exit_id": "E"
+        }
+      ],
+      "exits": [
+        {
+          "id": "A",
+          "color": "blu",
+          "hex": "#2866b8",
+          "side": "sinistra",
+          "start": 1,
+          "width": 1
+        },
+        {
+          "id": "B",
+          "color": "ambra",
+          "hex": "#b87916",
+          "side": "destra",
+          "start": 1,
+          "width": 1
+        },
+        {
+          "id": "C",
+          "color": "verde",
+          "hex": "#267c59",
+          "side": "alto",
+          "start": 6,
+          "width": 2
+        },
+        {
+          "id": "D",
+          "color": "viola",
+          "hex": "#7955ac",
+          "side": "sinistra",
+          "start": 2,
+          "width": 3
+        },
+        {
+          "id": "E",
+          "color": "rosso",
+          "hex": "#bc494b",
+          "side": "sinistra",
+          "start": 6,
+          "width": 3
+        }
+      ],
+      "solution": [
+        {
+          "block": "E",
+          "direction": "sinistra",
+          "steps": 1
+        },
+        {
+          "block": "E",
+          "direction": "basso",
+          "steps": 5
+        },
+        {
+          "block": "E",
+          "direction": "sinistra",
+          "steps": 2
+        },
+        {
+          "block": "D",
+          "direction": "sinistra",
+          "steps": 5
+        },
+        {
+          "block": "D",
+          "direction": "basso",
+          "steps": 1
+        },
+        {
+          "block": "D",
+          "direction": "sinistra",
+          "steps": 2
+        },
+        {
+          "block": "B",
+          "direction": "destra",
+          "steps": 2
+        },
+        {
+          "block": "B",
+          "direction": "alto",
+          "steps": 3
+        },
+        {
+          "block": "B",
+          "direction": "destra",
+          "steps": 4
+        },
+        {
+          "block": "C",
+          "direction": "alto",
+          "steps": 7
+        },
+        {
+          "block": "A",
+          "direction": "sinistra",
+          "steps": 1
+        },
+        {
+          "block": "A",
+          "direction": "alto",
+          "steps": 6
+        },
+        {
+          "block": "A",
+          "direction": "sinistra",
+          "steps": 3
+        }
+      ],
+      "verification": {
+        "solved": true,
+        "unit_steps": 42,
+        "initial_reachable_exits": 3,
+        "remaining_if_only_removing": 0,
+        "minimum_moves": null
+      }
+    },
+    {
+      "level": 5,
+      "columns": 8,
+      "rows": 10,
+      "difficulty_estimate": 4,
+      "description": "Schema 8×10; percorsi e precedenze da calibrare nel motore.",
+      "blocks": [
+        {
+          "id": "A",
+          "color": "blu",
+          "hex": "#2866b8",
+          "col": 4,
+          "row": 2,
+          "width": 1,
+          "height": 3,
+          "exit_id": "A"
+        },
+        {
+          "id": "B",
+          "color": "ambra",
+          "hex": "#b87916",
+          "col": 3,
+          "row": 9,
+          "width": 2,
+          "height": 1,
+          "exit_id": "B"
+        },
+        {
+          "id": "C",
+          "color": "verde",
+          "hex": "#267c59",
+          "col": 2,
+          "row": 6,
+          "width": 2,
+          "height": 1,
+          "exit_id": "C"
+        },
+        {
+          "id": "D",
+          "color": "viola",
+          "hex": "#7955ac",
+          "col": 5,
+          "row": 3,
+          "width": 2,
+          "height": 2,
+          "exit_id": "D"
+        },
+        {
+          "id": "E",
+          "color": "rosso",
+          "hex": "#bc494b",
+          "col": 3,
+          "row": 4,
+          "width": 1,
+          "height": 2,
+          "exit_id": "E"
+        },
+        {
+          "id": "F",
+          "color": "turchese",
+          "hex": "#18888d",
+          "col": 2,
+          "row": 8,
+          "width": 1,
+          "height": 2,
+          "exit_id": "F"
+        }
+      ],
+      "exits": [
+        {
+          "id": "A",
+          "color": "blu",
+          "hex": "#2866b8",
+          "side": "basso",
+          "start": 4,
+          "width": 1
+        },
+        {
+          "id": "B",
+          "color": "ambra",
+          "hex": "#b87916",
+          "side": "destra",
+          "start": 4,
+          "width": 1
+        },
+        {
+          "id": "C",
+          "color": "verde",
+          "hex": "#267c59",
+          "side": "alto",
+          "start": 5,
+          "width": 2
+        },
+        {
+          "id": "D",
+          "color": "viola",
+          "hex": "#7955ac",
+          "side": "sinistra",
+          "start": 7,
+          "width": 2
+        },
+        {
+          "id": "E",
+          "color": "rosso",
+          "hex": "#bc494b",
+          "side": "destra",
+          "start": 7,
+          "width": 2
+        },
+        {
+          "id": "F",
+          "color": "turchese",
+          "hex": "#18888d",
+          "side": "basso",
+          "start": 6,
+          "width": 1
+        }
+      ],
+      "solution": [
+        {
+          "block": "F",
+          "direction": "alto",
+          "steps": 1
+        },
+        {
+          "block": "F",
+          "direction": "destra",
+          "steps": 4
+        },
+        {
+          "block": "F",
+          "direction": "basso",
+          "steps": 4
+        },
+        {
+          "block": "D",
+          "direction": "basso",
+          "steps": 2
+        },
+        {
+          "block": "D",
+          "direction": "sinistra",
+          "steps": 1
+        },
+        {
+          "block": "D",
+          "direction": "basso",
+          "steps": 2
+        },
+        {
+          "block": "D",
+          "direction": "sinistra",
+          "steps": 5
+        },
+        {
+          "block": "B",
+          "direction": "destra",
+          "steps": 2
+        },
+        {
+          "block": "B",
+          "direction": "alto",
+          "steps": 5
+        },
+        {
+          "block": "B",
+          "direction": "destra",
+          "steps": 4
+        },
+        {
+          "block": "A",
+          "direction": "basso",
+          "steps": 9
+        },
+        {
+          "block": "E",
+          "direction": "destra",
+          "steps": 3
+        },
+        {
+          "block": "E",
+          "direction": "basso",
+          "steps": 3
+        },
+        {
+          "block": "E",
+          "direction": "destra",
+          "steps": 3
+        },
+        {
+          "block": "C",
+          "direction": "destra",
+          "steps": 3
+        },
+        {
+          "block": "C",
+          "direction": "alto",
+          "steps": 6
+        }
+      ],
+      "verification": {
+        "solved": true,
+        "unit_steps": 57,
+        "initial_reachable_exits": 3,
+        "remaining_if_only_removing": 0,
+        "minimum_moves": null
+      }
+    },
+    {
+      "level": 6,
+      "columns": 8,
+      "rows": 10,
+      "difficulty_estimate": 5,
+      "description": "Schema 8×10; percorsi e precedenze da calibrare nel motore.",
+      "blocks": [
+        {
+          "id": "A",
+          "color": "blu",
+          "hex": "#2866b8",
+          "col": 3,
+          "row": 3,
+          "width": 3,
+          "height": 1,
+          "exit_id": "A"
+        },
+        {
+          "id": "B",
+          "color": "ambra",
+          "hex": "#b87916",
+          "col": 4,
+          "row": 4,
+          "width": 2,
+          "height": 2,
+          "exit_id": "B"
+        },
+        {
+          "id": "C",
+          "color": "verde",
+          "hex": "#267c59",
+          "col": 4,
+          "row": 7,
+          "width": 2,
+          "height": 2,
+          "exit_id": "C"
+        },
+        {
+          "id": "D",
+          "color": "viola",
+          "hex": "#7955ac",
+          "col": 8,
+          "row": 9,
+          "width": 1,
+          "height": 1,
+          "exit_id": "D"
+        },
+        {
+          "id": "E",
+          "color": "rosso",
+          "hex": "#bc494b",
+          "col": 5,
+          "row": 6,
+          "width": 3,
+          "height": 1,
+          "exit_id": "E"
+        },
+        {
+          "id": "F",
+          "color": "turchese",
+          "hex": "#18888d",
+          "col": 7,
+          "row": 4,
+          "width": 1,
+          "height": 1,
+          "exit_id": "F"
+        }
+      ],
+      "exits": [
+        {
+          "id": "A",
+          "color": "blu",
+          "hex": "#2866b8",
+          "side": "sinistra",
+          "start": 6,
+          "width": 1
+        },
+        {
+          "id": "B",
+          "color": "ambra",
+          "hex": "#b87916",
+          "side": "destra",
+          "start": 8,
+          "width": 2
+        },
+        {
+          "id": "C",
+          "color": "verde",
+          "hex": "#267c59",
+          "side": "destra",
+          "start": 3,
+          "width": 2
+        },
+        {
+          "id": "D",
+          "color": "viola",
+          "hex": "#7955ac",
+          "side": "destra",
+          "start": 7,
+          "width": 1
+        },
+        {
+          "id": "E",
+          "color": "rosso",
+          "hex": "#bc494b",
+          "side": "alto",
+          "start": 6,
+          "width": 3
+        },
+        {
+          "id": "F",
+          "color": "turchese",
+          "hex": "#18888d",
+          "side": "sinistra",
+          "start": 5,
+          "width": 1
+        }
+      ],
+      "solution": [
+        {
+          "block": "D",
+          "direction": "alto",
+          "steps": 2
+        },
+        {
+          "block": "D",
+          "direction": "destra",
+          "steps": 1
+        },
+        {
+          "block": "F",
+          "direction": "destra",
+          "steps": 1
+        },
+        {
+          "block": "F",
+          "direction": "basso",
+          "steps": 3
+        },
+        {
+          "block": "F",
+          "direction": "sinistra",
+          "steps": 2
+        },
+        {
+          "block": "F",
+          "direction": "basso",
+          "steps": 2
+        },
+        {
+          "block": "F",
+          "direction": "sinistra",
+          "steps": 3
+        },
+        {
+          "block": "F",
+          "direction": "alto",
+          "steps": 4
+        },
+        {
+          "block": "F",
+          "direction": "sinistra",
+          "steps": 3
+        },
+        {
+          "block": "E",
+          "direction": "destra",
+          "steps": 1
+        },
+        {
+          "block": "E",
+          "direction": "alto",
+          "steps": 6
+        },
+        {
+          "block": "B",
+          "direction": "destra",
+          "steps": 3
+        },
+        {
+          "block": "B",
+          "direction": "basso",
+          "steps": 4
+        },
+        {
+          "block": "B",
+          "direction": "destra",
+          "steps": 2
+        },
+        {
+          "block": "A",
+          "direction": "basso",
+          "steps": 3
+        },
+        {
+          "block": "A",
+          "direction": "sinistra",
+          "steps": 5
+        },
+        {
+          "block": "C",
+          "direction": "destra",
+          "steps": 3
+        },
+        {
+          "block": "C",
+          "direction": "alto",
+          "steps": 4
+        },
+        {
+          "block": "C",
+          "direction": "destra",
+          "steps": 2
+        }
+      ],
+      "verification": {
+        "solved": true,
+        "unit_steps": 54,
+        "initial_reachable_exits": 3,
+        "remaining_if_only_removing": 0,
+        "minimum_moves": null
+      }
+    },
+    {
+      "level": 7,
+      "columns": 8,
+      "rows": 10,
+      "difficulty_estimate": 6,
+      "description": "Schema 8×10; percorsi e precedenze da calibrare nel motore.",
+      "blocks": [
+        {
+          "id": "A",
+          "color": "blu",
+          "hex": "#2866b8",
+          "col": 3,
+          "row": 10,
+          "width": 1,
+          "height": 1,
+          "exit_id": "A"
+        },
+        {
+          "id": "B",
+          "color": "ambra",
+          "hex": "#b87916",
+          "col": 2,
+          "row": 3,
+          "width": 1,
+          "height": 3,
+          "exit_id": "B"
+        },
+        {
+          "id": "C",
+          "color": "verde",
+          "hex": "#267c59",
+          "col": 7,
+          "row": 3,
+          "width": 1,
+          "height": 2,
+          "exit_id": "C"
+        },
+        {
+          "id": "D",
+          "color": "viola",
+          "hex": "#7955ac",
+          "col": 4,
+          "row": 5,
+          "width": 1,
+          "height": 3,
+          "exit_id": "D"
+        },
+        {
+          "id": "E",
+          "color": "rosso",
+          "hex": "#bc494b",
+          "col": 2,
+          "row": 7,
+          "width": 2,
+          "height": 1,
+          "exit_id": "E"
+        },
+        {
+          "id": "F",
+          "color": "turchese",
+          "hex": "#18888d",
+          "col": 6,
+          "row": 7,
+          "width": 2,
+          "height": 2,
+          "exit_id": "F"
+        },
+        {
+          "id": "G",
+          "color": "rosa",
+          "hex": "#b4498a",
+          "col": 5,
+          "row": 9,
+          "width": 3,
+          "height": 1,
+          "exit_id": "G"
+        }
+      ],
+      "exits": [
+        {
+          "id": "A",
+          "color": "blu",
+          "hex": "#2866b8",
+          "side": "destra",
+          "start": 8,
+          "width": 1
+        },
+        {
+          "id": "B",
+          "color": "ambra",
+          "hex": "#b87916",
+          "side": "alto",
+          "start": 7,
+          "width": 1
+        },
+        {
+          "id": "C",
+          "color": "verde",
+          "hex": "#267c59",
+          "side": "basso",
+          "start": 7,
+          "width": 1
+        },
+        {
+          "id": "D",
+          "color": "viola",
+          "hex": "#7955ac",
+          "side": "sinistra",
+          "start": 7,
+          "width": 3
+        },
+        {
+          "id": "E",
+          "color": "rosso",
+          "hex": "#bc494b",
+          "side": "destra",
+          "start": 7,
+          "width": 1
+        },
+        {
+          "id": "F",
+          "color": "turchese",
+          "hex": "#18888d",
+          "side": "destra",
+          "start": 9,
+          "width": 2
+        },
+        {
+          "id": "G",
+          "color": "rosa",
+          "hex": "#b4498a",
+          "side": "basso",
+          "start": 3,
+          "width": 3
+        }
+      ],
+      "solution": [
+        {
+          "block": "A",
+          "direction": "sinistra",
+          "steps": 1
+        },
+        {
+          "block": "G",
+          "direction": "sinistra",
+          "steps": 2
+        },
+        {
+          "block": "G",
+          "direction": "basso",
+          "steps": 2
+        },
+        {
+          "block": "F",
+          "direction": "basso",
+          "steps": 2
+        },
+        {
+          "block": "F",
+          "direction": "destra",
+          "steps": 3
+        },
+        {
+          "block": "C",
+          "direction": "basso",
+          "steps": 8
+        },
+        {
+          "block": "E",
+          "direction": "basso",
+          "steps": 1
+        },
+        {
+          "block": "E",
+          "direction": "destra",
+          "steps": 4
+        },
+        {
+          "block": "E",
+          "direction": "alto",
+          "steps": 1
+        },
+        {
+          "block": "E",
+          "direction": "destra",
+          "steps": 3
+        },
+        {
+          "block": "D",
+          "direction": "sinistra",
+          "steps": 1
+        },
+        {
+          "block": "D",
+          "direction": "basso",
+          "steps": 1
+        },
+        {
+          "block": "D",
+          "direction": "sinistra",
+          "steps": 1
+        },
+        {
+          "block": "D",
+          "direction": "basso",
+          "steps": 1
+        },
+        {
+          "block": "D",
+          "direction": "sinistra",
+          "steps": 2
+        },
+        {
+          "block": "B",
+          "direction": "destra",
+          "steps": 5
+        },
+        {
+          "block": "B",
+          "direction": "alto",
+          "steps": 5
+        },
+        {
+          "block": "A",
+          "direction": "destra",
+          "steps": 5
+        },
+        {
+          "block": "A",
+          "direction": "alto",
+          "steps": 2
+        },
+        {
+          "block": "A",
+          "direction": "destra",
+          "steps": 2
+        }
+      ],
+      "verification": {
+        "solved": true,
+        "unit_steps": 52,
+        "initial_reachable_exits": 1,
+        "remaining_if_only_removing": 0,
+        "minimum_moves": null
+      }
+    },
+    {
+      "level": 8,
+      "columns": 8,
+      "rows": 10,
+      "difficulty_estimate": 7,
+      "description": "Schema 8×10; percorsi e precedenze da calibrare nel motore.",
+      "blocks": [
+        {
+          "id": "A",
+          "color": "blu",
+          "hex": "#2866b8",
+          "col": 3,
+          "row": 8,
+          "width": 1,
+          "height": 3,
+          "exit_id": "A"
+        },
+        {
+          "id": "B",
+          "color": "ambra",
+          "hex": "#b87916",
+          "col": 6,
+          "row": 8,
+          "width": 1,
+          "height": 3,
+          "exit_id": "B"
+        },
+        {
+          "id": "C",
+          "color": "verde",
+          "hex": "#267c59",
+          "col": 6,
+          "row": 3,
+          "width": 1,
+          "height": 2,
+          "exit_id": "C"
+        },
+        {
+          "id": "D",
+          "color": "viola",
+          "hex": "#7955ac",
+          "col": 7,
+          "row": 3,
+          "width": 1,
+          "height": 2,
+          "exit_id": "D"
+        },
+        {
+          "id": "E",
+          "color": "rosso",
+          "hex": "#bc494b",
+          "col": 3,
+          "row": 3,
+          "width": 1,
+          "height": 1,
+          "exit_id": "E"
+        },
+        {
+          "id": "F",
+          "color": "turchese",
+          "hex": "#18888d",
+          "col": 5,
+          "row": 7,
+          "width": 1,
+          "height": 3,
+          "exit_id": "F"
+        },
+        {
+          "id": "G",
+          "color": "rosa",
+          "hex": "#b4498a",
+          "col": 8,
+          "row": 6,
+          "width": 1,
+          "height": 1,
+          "exit_id": "G"
+        },
+        {
+          "id": "H",
+          "color": "ardesia",
+          "hex": "#566b88",
+          "col": 4,
+          "row": 10,
+          "width": 1,
+          "height": 1,
+          "exit_id": "H"
+        }
+      ],
+      "exits": [
+        {
+          "id": "A",
+          "color": "blu",
+          "hex": "#2866b8",
+          "side": "alto",
+          "start": 8,
+          "width": 1
+        },
+        {
+          "id": "B",
+          "color": "ambra",
+          "hex": "#b87916",
+          "side": "sinistra",
+          "start": 4,
+          "width": 3
+        },
+        {
+          "id": "C",
+          "color": "verde",
+          "hex": "#267c59",
+          "side": "destra",
+          "start": 3,
+          "width": 2
+        },
+        {
+          "id": "D",
+          "color": "viola",
+          "hex": "#7955ac",
+          "side": "destra",
+          "start": 6,
+          "width": 2
+        },
+        {
+          "id": "E",
+          "color": "rosso",
+          "hex": "#bc494b",
+          "side": "basso",
+          "start": 5,
+          "width": 1
+        },
+        {
+          "id": "F",
+          "color": "turchese",
+          "hex": "#18888d",
+          "side": "basso",
+          "start": 6,
+          "width": 1
+        },
+        {
+          "id": "G",
+          "color": "rosa",
+          "hex": "#b4498a",
+          "side": "basso",
+          "start": 4,
+          "width": 1
+        },
+        {
+          "id": "H",
+          "color": "ardesia",
+          "hex": "#566b88",
+          "side": "alto",
+          "start": 6,
+          "width": 1
+        }
+      ],
+      "solution": [
+        {
+          "block": "B",
+          "direction": "alto",
+          "steps": 1
+        },
+        {
+          "block": "B",
+          "direction": "destra",
+          "steps": 1
+        },
+        {
+          "block": "F",
+          "direction": "basso",
+          "steps": 1
+        },
+        {
+          "block": "D",
+          "direction": "basso",
+          "steps": 1
+        },
+        {
+          "block": "C",
+          "direction": "basso",
+          "steps": 1
+        },
+        {
+          "block": "F",
+          "direction": "destra",
+          "steps": 1
+        },
+        {
+          "block": "F",
+          "direction": "sinistra",
+          "steps": 1
+        },
+        {
+          "block": "F",
+          "direction": "destra",
+          "steps": 1
+        },
+        {
+          "block": "F",
+          "direction": "basso",
+          "steps": 3
+        },
+        {
+          "block": "B",
+          "direction": "sinistra",
+          "steps": 3
+        },
+        {
+          "block": "B",
+          "direction": "alto",
+          "steps": 2
+        },
+        {
+          "block": "B",
+          "direction": "sinistra",
+          "steps": 1
+        },
+        {
+          "block": "B",
+          "direction": "alto",
+          "steps": 1
+        },
+        {
+          "block": "B",
+          "direction": "sinistra",
+          "steps": 3
+        },
+        {
+          "block": "E",
+          "direction": "destra",
+          "steps": 2
+        },
+        {
+          "block": "E",
+          "direction": "basso",
+          "steps": 8
+        },
+        {
+          "block": "H",
+          "direction": "destra",
+          "steps": 1
+        },
+        {
+          "block": "H",
+          "direction": "alto",
+          "steps": 7
+        },
+        {
+          "block": "H",
+          "direction": "destra",
+          "steps": 1
+        },
+        {
+          "block": "H",
+          "direction": "alto",
+          "steps": 3
+        },
+        {
+          "block": "G",
+          "direction": "sinistra",
+          "steps": 4
+        },
+        {
+          "block": "G",
+          "direction": "basso",
+          "steps": 5
+        },
+        {
+          "block": "D",
+          "direction": "destra",
+          "steps": 1
+        },
+        {
+          "block": "D",
+          "direction": "basso",
+          "steps": 2
+        },
+        {
+          "block": "D",
+          "direction": "destra",
+          "steps": 1
+        },
+        {
+          "block": "C",
+          "direction": "destra",
+          "steps": 2
+        },
+        {
+          "block": "C",
+          "direction": "alto",
+          "steps": 1
+        },
+        {
+          "block": "C",
+          "direction": "destra",
+          "steps": 1
+        },
+        {
+          "block": "A",
+          "direction": "destra",
+          "steps": 5
+        },
+        {
+          "block": "A",
+          "direction": "alto",
+          "steps": 10
+        }
+      ],
+      "verification": {
+        "solved": true,
+        "unit_steps": 75,
+        "initial_reachable_exits": 2,
+        "remaining_if_only_removing": 0,
+        "minimum_moves": null
+      }
+    },
+    {
+      "level": 9,
+      "columns": 8,
+      "rows": 10,
+      "difficulty_estimate": 8,
+      "description": "Schema 8×10; percorsi e precedenze da calibrare nel motore.",
+      "blocks": [
+        {
+          "id": "A",
+          "color": "blu",
+          "hex": "#2866b8",
+          "col": 3,
+          "row": 6,
+          "width": 1,
+          "height": 2,
+          "exit_id": "A"
+        },
+        {
+          "id": "B",
+          "color": "ambra",
+          "hex": "#b87916",
+          "col": 4,
+          "row": 4,
+          "width": 3,
+          "height": 1,
+          "exit_id": "B"
+        },
+        {
+          "id": "C",
+          "color": "verde",
+          "hex": "#267c59",
+          "col": 3,
+          "row": 8,
+          "width": 3,
+          "height": 1,
+          "exit_id": "C"
+        },
+        {
+          "id": "D",
+          "color": "viola",
+          "hex": "#7955ac",
+          "col": 5,
+          "row": 1,
+          "width": 2,
+          "height": 1,
+          "exit_id": "D"
+        },
+        {
+          "id": "E",
+          "color": "rosso",
+          "hex": "#bc494b",
+          "col": 1,
+          "row": 2,
+          "width": 3,
+          "height": 1,
+          "exit_id": "E"
+        },
+        {
+          "id": "F",
+          "color": "turchese",
+          "hex": "#18888d",
+          "col": 1,
+          "row": 7,
+          "width": 1,
+          "height": 1,
+          "exit_id": "F"
+        },
+        {
+          "id": "G",
+          "color": "rosa",
+          "hex": "#b4498a",
+          "col": 4,
+          "row": 5,
+          "width": 1,
+          "height": 1,
+          "exit_id": "G"
+        },
+        {
+          "id": "H",
+          "color": "ardesia",
+          "hex": "#566b88",
+          "col": 3,
+          "row": 4,
+          "width": 1,
+          "height": 2,
+          "exit_id": "H"
+        },
+        {
+          "id": "I",
+          "color": "arancio",
+          "hex": "#bf601f",
+          "col": 5,
+          "row": 5,
+          "width": 2,
+          "height": 2,
+          "exit_id": "I"
+        }
+      ],
+      "exits": [
+        {
+          "id": "A",
+          "color": "blu",
+          "hex": "#2866b8",
+          "side": "destra",
+          "start": 3,
+          "width": 2
+        },
+        {
+          "id": "B",
+          "color": "ambra",
+          "hex": "#b87916",
+          "side": "destra",
+          "start": 5,
+          "width": 1
+        },
+        {
+          "id": "C",
+          "color": "verde",
+          "hex": "#267c59",
+          "side": "alto",
+          "start": 1,
+          "width": 3
+        },
+        {
+          "id": "D",
+          "color": "viola",
+          "hex": "#7955ac",
+          "side": "sinistra",
+          "start": 2,
+          "width": 1
+        },
+        {
+          "id": "E",
+          "color": "rosso",
+          "hex": "#bc494b",
+          "side": "sinistra",
+          "start": 5,
+          "width": 1
+        },
+        {
+          "id": "F",
+          "color": "turchese",
+          "hex": "#18888d",
+          "side": "destra",
+          "start": 8,
+          "width": 1
+        },
+        {
+          "id": "G",
+          "color": "rosa",
+          "hex": "#b4498a",
+          "side": "sinistra",
+          "start": 3,
+          "width": 1
+        },
+        {
+          "id": "H",
+          "color": "ardesia",
+          "hex": "#566b88",
+          "side": "sinistra",
+          "start": 6,
+          "width": 2
+        },
+        {
+          "id": "I",
+          "color": "arancio",
+          "hex": "#bf601f",
+          "side": "basso",
+          "start": 5,
+          "width": 2
+        }
+      ],
+      "solution": [
+        {
+          "block": "F",
+          "direction": "destra",
+          "steps": 1
+        },
+        {
+          "block": "I",
+          "direction": "basso",
+          "steps": 1
+        },
+        {
+          "block": "D",
+          "direction": "basso",
+          "steps": 1
+        },
+        {
+          "block": "C",
+          "direction": "sinistra",
+          "steps": 1
+        },
+        {
+          "block": "D",
+          "direction": "sinistra",
+          "steps": 1
+        },
+        {
+          "block": "I",
+          "direction": "basso",
+          "steps": 5
+        },
+        {
+          "block": "H",
+          "direction": "sinistra",
+          "steps": 2
+        },
+        {
+          "block": "H",
+          "direction": "basso",
+          "steps": 2
+        },
+        {
+          "block": "H",
+          "direction": "sinistra",
+          "steps": 1
+        },
+        {
+          "block": "E",
+          "direction": "basso",
+          "steps": 3
+        },
+        {
+          "block": "E",
+          "direction": "sinistra",
+          "steps": 3
+        },
+        {
+          "block": "D",
+          "direction": "sinistra",
+          "steps": 5
+        },
+        {
+          "block": "G",
+          "direction": "sinistra",
+          "steps": 3
+        },
+        {
+          "block": "G",
+          "direction": "alto",
+          "steps": 2
+        },
+        {
+          "block": "G",
+          "direction": "sinistra",
+          "steps": 1
+        },
+        {
+          "block": "B",
+          "direction": "basso",
+          "steps": 1
+        },
+        {
+          "block": "B",
+          "direction": "destra",
+          "steps": 5
+        },
+        {
+          "block": "A",
+          "direction": "destra",
+          "steps": 3
+        },
+        {
+          "block": "A",
+          "direction": "alto",
+          "steps": 3
+        },
+        {
+          "block": "A",
+          "direction": "destra",
+          "steps": 3
+        },
+        {
+          "block": "F",
+          "direction": "destra",
+          "steps": 4
+        },
+        {
+          "block": "F",
+          "direction": "basso",
+          "steps": 1
+        },
+        {
+          "block": "F",
+          "direction": "destra",
+          "steps": 3
+        },
+        {
+          "block": "C",
+          "direction": "sinistra",
+          "steps": 1
+        },
+        {
+          "block": "C",
+          "direction": "alto",
+          "steps": 8
+        }
+      ],
+      "verification": {
+        "solved": true,
+        "unit_steps": 64,
+        "initial_reachable_exits": 4,
+        "remaining_if_only_removing": 0,
+        "minimum_moves": null
+      }
+    },
+    {
+      "level": 10,
+      "columns": 8,
+      "rows": 10,
+      "difficulty_estimate": 9,
+      "description": "Schema 8×10; percorsi e precedenze da calibrare nel motore.",
+      "blocks": [
+        {
+          "id": "A",
+          "color": "blu",
+          "hex": "#2866b8",
+          "col": 5,
+          "row": 6,
+          "width": 1,
+          "height": 3,
+          "exit_id": "A"
+        },
+        {
+          "id": "B",
+          "color": "ambra",
+          "hex": "#b87916",
+          "col": 2,
+          "row": 8,
+          "width": 3,
+          "height": 1,
+          "exit_id": "B"
+        },
+        {
+          "id": "C",
+          "color": "verde",
+          "hex": "#267c59",
+          "col": 3,
+          "row": 3,
+          "width": 1,
+          "height": 2,
+          "exit_id": "C"
+        },
+        {
+          "id": "D",
+          "color": "viola",
+          "hex": "#7955ac",
+          "col": 7,
+          "row": 6,
+          "width": 1,
+          "height": 3,
+          "exit_id": "D"
+        },
+        {
+          "id": "E",
+          "color": "rosso",
+          "hex": "#bc494b",
+          "col": 7,
+          "row": 3,
+          "width": 1,
+          "height": 2,
+          "exit_id": "E"
+        },
+        {
+          "id": "F",
+          "color": "turchese",
+          "hex": "#18888d",
+          "col": 3,
+          "row": 6,
+          "width": 1,
+          "height": 1,
+          "exit_id": "F"
+        },
+        {
+          "id": "G",
+          "color": "rosa",
+          "hex": "#b4498a",
+          "col": 6,
+          "row": 8,
+          "width": 1,
+          "height": 2,
+          "exit_id": "G"
+        },
+        {
+          "id": "H",
+          "color": "ardesia",
+          "hex": "#566b88",
+          "col": 4,
+          "row": 5,
+          "width": 1,
+          "height": 2,
+          "exit_id": "H"
+        },
+        {
+          "id": "I",
+          "color": "arancio",
+          "hex": "#bf601f",
+          "col": 4,
+          "row": 9,
+          "width": 1,
+          "height": 1,
+          "exit_id": "I"
+        },
+        {
+          "id": "J",
+          "color": "oliva",
+          "hex": "#747a28",
+          "col": 5,
+          "row": 4,
+          "width": 1,
+          "height": 1,
+          "exit_id": "J"
+        }
+      ],
+      "exits": [
+        {
+          "id": "A",
+          "color": "blu",
+          "hex": "#2866b8",
+          "side": "basso",
+          "start": 6,
+          "width": 1
+        },
+        {
+          "id": "B",
+          "color": "ambra",
+          "hex": "#b87916",
+          "side": "alto",
+          "start": 4,
+          "width": 3
+        },
+        {
+          "id": "C",
+          "color": "verde",
+          "hex": "#267c59",
+          "side": "alto",
+          "start": 7,
+          "width": 1
+        },
+        {
+          "id": "D",
+          "color": "viola",
+          "hex": "#7955ac",
+          "side": "destra",
+          "start": 3,
+          "width": 3
+        },
+        {
+          "id": "E",
+          "color": "rosso",
+          "hex": "#bc494b",
+          "side": "sinistra",
+          "start": 6,
+          "width": 2
+        },
+        {
+          "id": "F",
+          "color": "turchese",
+          "hex": "#18888d",
+          "side": "basso",
+          "start": 7,
+          "width": 1
+        },
+        {
+          "id": "G",
+          "color": "rosa",
+          "hex": "#b4498a",
+          "side": "sinistra",
+          "start": 4,
+          "width": 2
+        },
+        {
+          "id": "H",
+          "color": "ardesia",
+          "hex": "#566b88",
+          "side": "sinistra",
+          "start": 2,
+          "width": 2
+        },
+        {
+          "id": "I",
+          "color": "arancio",
+          "hex": "#bf601f",
+          "side": "destra",
+          "start": 9,
+          "width": 1
+        },
+        {
+          "id": "J",
+          "color": "oliva",
+          "hex": "#747a28",
+          "side": "alto",
+          "start": 2,
+          "width": 1
+        }
+      ],
+      "solution": [
+        {
+          "block": "C",
+          "direction": "alto",
+          "steps": 1
+        },
+        {
+          "block": "F",
+          "direction": "basso",
+          "steps": 1
+        },
+        {
+          "block": "E",
+          "direction": "alto",
+          "steps": 1
+        },
+        {
+          "block": "G",
+          "direction": "alto",
+          "steps": 1
+        },
+        {
+          "block": "C",
+          "direction": "destra",
+          "steps": 1
+        },
+        {
+          "block": "H",
+          "direction": "alto",
+          "steps": 1
+        },
+        {
+          "block": "J",
+          "direction": "basso",
+          "steps": 1
+        },
+        {
+          "block": "G",
+          "direction": "alto",
+          "steps": 1
+        },
+        {
+          "block": "H",
+          "direction": "sinistra",
+          "steps": 1
+        },
+        {
+          "block": "H",
+          "direction": "alto",
+          "steps": 1
+        },
+        {
+          "block": "H",
+          "direction": "sinistra",
+          "steps": 1
+        },
+        {
+          "block": "H",
+          "direction": "alto",
+          "steps": 1
+        },
+        {
+          "block": "H",
+          "direction": "sinistra",
+          "steps": 2
+        },
+        {
+          "block": "I",
+          "direction": "destra",
+          "steps": 5
+        },
+        {
+          "block": "J",
+          "direction": "sinistra",
+          "steps": 3
+        },
+        {
+          "block": "J",
+          "direction": "alto",
+          "steps": 5
+        },
+        {
+          "block": "G",
+          "direction": "alto",
+          "steps": 2
+        },
+        {
+          "block": "G",
+          "direction": "sinistra",
+          "steps": 6
+        },
+        {
+          "block": "A",
+          "direction": "destra",
+          "steps": 1
+        },
+        {
+          "block": "A",
+          "direction": "basso",
+          "steps": 5
+        },
+        {
+          "block": "F",
+          "direction": "destra",
+          "steps": 3
+        },
+        {
+          "block": "F",
+          "direction": "basso",
+          "steps": 2
+        },
+        {
+          "block": "F",
+          "direction": "destra",
+          "steps": 1
+        },
+        {
+          "block": "F",
+          "direction": "basso",
+          "steps": 2
+        },
+        {
+          "block": "E",
+          "direction": "sinistra",
+          "steps": 2
+        },
+        {
+          "block": "E",
+          "direction": "basso",
+          "steps": 2
+        },
+        {
+          "block": "E",
+          "direction": "sinistra",
+          "steps": 3
+        },
+        {
+          "block": "E",
+          "direction": "basso",
+          "steps": 2
+        },
+        {
+          "block": "E",
+          "direction": "sinistra",
+          "steps": 2
+        },
+        {
+          "block": "C",
+          "direction": "destra",
+          "steps": 3
+        },
+        {
+          "block": "C",
+          "direction": "alto",
+          "steps": 3
+        },
+        {
+          "block": "D",
+          "direction": "alto",
+          "steps": 3
+        },
+        {
+          "block": "D",
+          "direction": "destra",
+          "steps": 2
+        },
+        {
+          "block": "B",
+          "direction": "destra",
+          "steps": 2
+        },
+        {
+          "block": "B",
+          "direction": "alto",
+          "steps": 8
+        }
+      ],
+      "verification": {
+        "solved": true,
+        "unit_steps": 81,
+        "initial_reachable_exits": 8,
+        "remaining_if_only_removing": 0,
+        "minimum_moves": null
+      }
+    }
+  ],
+  "design_notes": "Adattamento dei nuclei dei livelli 6×8 con margini variabili; soluzioni ricalcolate e riprodotte cella per cella. Difficoltà ereditata, non certificata. Le uscite sono sul nuovo perimetro. Le misure grafiche non appartengono ai dati logici."
+}

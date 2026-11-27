@@ -35,3 +35,6 @@ Il concept è approvato. Le risorse separate sono una prima ricostruzione operat
 
 ## v0.04.7
 Copiare tutto nella root del repository, senza cancellare `.git`. Commit e Push origin. Chiudere tutte le schede e le finestre dell'app precedente per attivare la nuova cache; riaprire online prima del test offline. Impostazioni: Animazioni della Home e Animazioni durante il gioco sono indipendenti. Nessuna modifica alla modalità Intrecci (sospesa).
+
+## v0.04.8
+Nuovi 15 schemi ufficiali, progressione immediata 1–3, ripristino locale e selezione senza ripetizioni. Dopo il terzo livello, congratulazioni e Home. Per aggiornare, chiudere tutte le schede della vecchia versione e riaprire online; verificare poi in modalità aereo. Motore, renderer, CSS e risorse grafiche invariati. Intrecci rimane in pausa.

@@ -1,1 +1,7 @@
-{"type":"module","private":true,"scripts":{"test":"node tests/verify.js"}}
+{
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node tests/verify.js && node tests/session.js"
+  }
+}
